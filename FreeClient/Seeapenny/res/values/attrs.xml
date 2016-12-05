@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowGridLayout">
+        <attr name="childrenPerLine"  format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="PageCurlView">
+        <!-- Enable/Disable debug mode -->
+        <attr name="enableDebugMode" format="boolean"/>
+        <!-- Curl speed the animation moves in px/frame -->
+        <attr name="curlSpeed" format="integer"/>
+        <!-- FPS our animation will run -->
+        <attr name="updateRate" format="integer"/>
+        <!-- Pixel offset the page will have from the curl edge -->
+        <attr name="initialEdgeOffset" format="integer"/>
+        <!-- The curl mode to apply -->
+        <attr name="curlMode">
+            <enum name="Simple" value="0"/>
+            <enum name="Dynamic" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+
+    <declare-styleable name="MagicTextView">
+        <attr name="innerShadowColor" format="color"/>
+        <attr name="innerShadowRadius" format="float"/>
+        <attr name="innerShadowDx" format="float"/>
+        <attr name="innerShadowDy" format="float"/>
+
+        <attr name="outerShadowColor" format="color"/>
+        <attr name="outerShadowRadius" format="float"/>
+        <attr name="outerShadowDx" format="float"/>
+        <attr name="outerShadowDy" format="float"/>
+
+        <attr name="typeface" format="string"/>
+
+        <attr name="foreground" format="reference|color"/>
+
+        <attr name="strokeWidth" format="float"/>
+        <attr name="strokeMiter" format="float"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeJoinStyle">
+            <enum name="miter" value="0"/>
+            <enum name="bevel" value="1"/>
+            <enum name="round" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

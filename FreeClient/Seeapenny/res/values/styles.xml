@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+
+    </style>
+
+    <style name="text_header_dialog">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/go_next_in</item>
+        <item name="android:windowExitAnimation">@anim/go_next_out</item>
+    </style>
+
+    <style name="wait_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:drawable/dialog_frame</item>
+    </style>
+
+    <style name="clickable_toast">
+        <item name="@android:windowEnterAnimation">@anim/clickable_toast_in</item>
+        <item name="@android:windowExitAnimation">@anim/clickable_toast_out</item>
+    </style>
+
+    <style name="action_item_dimension">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">50dp</item>
+    </style>
+
+    <style name="action_item_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="share_user_header">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="main_button_text">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#375272</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColorHighlight">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+    </style>
+
+    <style name="indeterminate" parent="@android:style/Widget.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/response_bar_icon</item>
+    </style>
+
+    <style name="main_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="title_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="main_header_text">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="login_button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">@drawable/button_login_selector</item>
+    </style>
+
+    <style name="reg_button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">@drawable/button_reg_selector</item>
+    </style>
+
+    <!--<style name="edit_text">-->
+    <!--<item name="android:background">@drawable/edit_text_background</item>-->
+    <!--<item name="android:textSize">20sp</item>-->
+    <!--</style>-->
+
+    <style name="edit_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="edit_text_good_additional_selector">
+        <item name="android:background">@drawable/edit_good_additional_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="edit_text_good_additional_selector1">
+        <item name="android:background">@drawable/edit_good_additional_selector1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="info" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="list">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <!--<item name="android:overScrollFooter">@null</item>-->
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+    </style>
+
+
+    <style name="ex_list">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:fastScrollEnabled">false</item>
+
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:divider">@drawable/menu_back_selected</item>
+
+        <!--<item name="android:overScrollFooter">@null</item>-->
+        <item name="android:groupIndicator">@null</item>
+
+        <item name="android:childIndicator">@null</item>
+        <item name="android:childDivider">@drawable/child_separator</item>
+
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+    </style>
+
+
+    <style name="ex_category_good">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:fastScrollEnabled">false</item>
+
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:divider">@drawable/menu_back_selected</item>
+
+        <!--<item name="android:overScrollFooter">@null</item>-->
+        <item name="android:groupIndicator">@null</item>
+
+        <item name="android:childIndicator">@null</item>
+        <item name="android:childDivider">@drawable/child_separator</item>
+
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+    </style>
+
+    <style name="text_login_link">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="auth_with">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="auth_without_session">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="modified_time">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_title_list">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+
+
+    <style name="text_shop_list_group">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="good_item_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="good_item_quantity">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+
+    <style name="list_empty">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="good_item_note">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+
+    <style name="good_item_category">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="list_time">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#858585</item>
+    </style>
+
+    <style name="good_item_price">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_list_date">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_list_sum_cost">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_list_count">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_shop_list_item_name">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_shop_list_item_quantity">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="text_shop_list_item_price">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_shop_list_category">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="text_shop_list_header">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+
+    <style name="text_list_options">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="Animations"/>
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu"/>
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu"/>
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <style name="text_menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="group_categories_style">
+        <item name="android:textSize">19sp</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+
+    <style name="child_categories_style">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="child_layout_style">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="child_category_image">
+        <item name="android:layout_width">45dp</item>
+    </style>
+
+    <style name="category_text_item">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="list_name_text">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text_size_all_good">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+
+        <item name="popupMenuStyle">@style/Widget.MyTheme.PopupMenu</item>
+        <item name="android:popupMenuStyle">@style/Widget.MyTheme.PopupMenu</item>
+
+        <!--<item name="actionBarItemBackground">@drawable/action_bar_item</item>-->
+        <!--<item name="android:actionBarItemBackground">@drawable/action_bar_item</item>-->
+
+        <item name="actionButtonStyle">@style/MyActionButtonStyle</item>
+        <item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>
+
+        <item name="android:windowAnimationStyle">@null</item>
+
+    </style>
+
+    <style name="MyActionButtonStyle" parent="Widget.Sherlock.ActionButton">
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="Widget.MyTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@drawable/header</item>
+        <item name="background">@drawable/header</item>
+    </style>
+
+
+    <style name="Widget.MyTheme.PopupMenu" parent="Widget.Sherlock.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_menu</item>
+    </style>
+
+    <style name="shop_list_group_item_share">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="profile_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="header_change_name_text">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="header_change_name_edit_text">
+        <item name="android:background">@drawable/edit_selector</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="choose_photo_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_title_edit_good">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+
+    <style name="text_title_edit_good_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_title_edit_good_price">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_title_edit_good_quantity">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="text_title_edit_good_weight">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_title_edit_good_note">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_title_edit_good_photo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="settings_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="settings_header_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="header_important_text">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="alert_dialog_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sort_dialog_header_text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="share_dialog_header_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="share_dialog_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="copy_dialog_header_text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sort_dialog_text_items">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="copy_dialog_text_items">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sort_dialog_text_sort_type">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sort_dialog_text_goods_bought">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_remind_password">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="toast_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_support">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="dialog_check_remove_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="share_item">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="rate_app">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="group_category_item">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+</resources>

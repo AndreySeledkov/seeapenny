@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="20dp"
+                android:id="@+id/registration_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:id="@+id/reg_mail_edit_text"
+            android:singleLine="true"
+            style="@style/edit_text"
+            android:maxLength="50"
+            android:inputType="textEmailAddress"
+            android:hint="@string/edit_text_email"
+            android:layout_height="wrap_content"/>
+
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_below="@id/reg_mail_edit_text"
+            android:id="@+id/separator1"
+            android:layout_height="10dp"/>
+
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            style="@style/edit_text"
+            android:maxLength="50"
+            android:id="@+id/reg_name_edit_text"
+            android:layout_below="@id/separator1"
+            android:hint="@string/edit_text_name"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_below="@id/reg_name_edit_text"
+            android:id="@+id/separator2"
+            android:layout_height="10dp"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:maxLength="50"
+            style="@style/edit_text"
+            android:layout_below="@id/separator2"
+            android:id="@+id/reg_password_edit_text"
+            android:hint="@string/edit_text_password"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_below="@id/reg_password_edit_text"
+            android:id="@+id/separator3"
+            android:layout_height="10dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_below="@id/separator3"
+            android:id="@+id/registration_submit"
+            style="@style/button"
+            android:text="@string/registration"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:visible="true" android:oneshot="false">
+    <item android:drawable="@drawable/response_bar_icon1" android:duration="100"/>
+    <item android:drawable="@drawable/response_bar_icon2" android:duration="100"/>
+    <item android:drawable="@drawable/response_bar_icon3" android:duration="100"/>
+    <item android:drawable="@drawable/response_bar_icon4" android:duration="100"/>
+    <item android:drawable="@drawable/response_bar_icon5" android:duration="100"/>
+    <item android:drawable="@drawable/response_bar_icon6" android:duration="100"/>
+    <item android:drawable="@drawable/response_bar_icon7" android:duration="100"/>
+</animation-list>

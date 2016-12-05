@@ -1,0 +1,1933 @@
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs
+android.support.v4.content.AsyncTaskLoader
+android.support.v4.content.AsyncTaskLoader$LoadTask
+android.support.v4.content.ContextCompatHoneycomb:
+    25:25:ContextCompatHoneycomb()
+android.support.v4.content.ContextCompatJellybean:
+    23:23:ContextCompatJellybean()
+android.support.v4.content.CursorLoader
+android.support.v4.content.FileProvider
+android.support.v4.content.FileProvider$PathStrategy
+android.support.v4.content.FileProvider$SimplePathStrategy
+android.support.v4.content.IntentCompat:
+    public static final java.lang.String ACTION_EXTERNAL_APPLICATIONS_AVAILABLE
+    public static final java.lang.String ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE
+    public static final java.lang.String EXTRA_CHANGED_PACKAGE_LIST
+    public static final java.lang.String EXTRA_CHANGED_UID_LIST
+    public static final java.lang.String EXTRA_HTML_TEXT
+    public static final int FLAG_ACTIVITY_TASK_ON_HOME
+    public static final int FLAG_ACTIVITY_CLEAR_TASK
+    95:97:private IntentCompat()
+    249:249:public static android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+    266:266:public static android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImpl:
+    public abstract android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+    public abstract android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImplBase:
+    51:53:public android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+    58:61:public android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImplHC:
+    72:72:public android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImplIcsMr1:
+    79:79:public android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+android.support.v4.content.IntentCompatHoneycomb:
+    22:22:IntentCompatHoneycomb()
+    28:28:public static android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompatIcsMr1
+android.support.v4.content.Loader:
+    android.content.Context mContext
+    90:92:public Loader(android.content.Context)
+    102:105:public void deliverResult(java.lang.Object)
+    111:111:public android.content.Context getContext()
+    118:118:public int getId()
+    157:157:public boolean isStarted()
+    166:166:public boolean isAbandoned()
+    175:175:public boolean isReset()
+    217:218:public void forceLoad()
+    225:225:protected void onForceLoad()
+    312:314:public boolean takeContentChanged()
+    326:334:public void onContentChanged()
+android.support.v4.content.Loader$ForceLoadContentObserver
+android.support.v4.content.Loader$OnLoadCompleteListener:
+    public abstract void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.content.LocalBroadcastManager
+android.support.v4.content.LocalBroadcastManager$1
+android.support.v4.content.LocalBroadcastManager$BroadcastRecord
+android.support.v4.content.LocalBroadcastManager$ReceiverRecord
+android.support.v4.content.ModernAsyncTask
+android.support.v4.content.ModernAsyncTask$1
+android.support.v4.content.ModernAsyncTask$2
+android.support.v4.content.ModernAsyncTask$3
+android.support.v4.content.ModernAsyncTask$4
+android.support.v4.content.ModernAsyncTask$AsyncTaskResult
+android.support.v4.content.ModernAsyncTask$InternalHandler
+android.support.v4.content.ModernAsyncTask$Status
+android.support.v4.content.ModernAsyncTask$WorkerRunnable
+android.support.v4.content.pm.ActivityInfoCompat
+android.support.v4.database.DatabaseUtilsCompat
+android.support.v4.net.ConnectivityManagerCompat
+android.support.v4.net.ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$ConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$GingerbreadConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$HoneycombMR2ConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$JellyBeanConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompatGingerbread
+android.support.v4.net.ConnectivityManagerCompatHoneycombMR2
+android.support.v4.net.ConnectivityManagerCompatJellyBean
+android.support.v4.net.TrafficStatsCompat
+android.support.v4.net.TrafficStatsCompat$1
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl$1
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl$SocketTags
+android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompatIcs
+android.support.v4.os.ParcelableCompat
+android.support.v4.os.ParcelableCompat$CompatCreator
+android.support.v4.os.ParcelableCompatCreatorCallbacks
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub
+android.support.v4.util.AtomicFile
+android.support.v4.util.DebugUtils:
+    25:25:public DebugUtils()
+android.support.v4.util.LongSparseArray
+android.support.v4.util.LruCache:
+    177:193:public final java.lang.Object remove(java.lang.Object)
+    264:264:public final synchronized int size()
+    273:273:public final synchronized int maxSize()
+    280:280:public final synchronized int hitCount()
+    288:288:public final synchronized int missCount()
+    295:295:public final synchronized int createCount()
+    302:302:public final synchronized int putCount()
+    309:309:public final synchronized int evictionCount()
+    317:317:public final synchronized java.util.Map snapshot()
+android.support.v4.util.SparseArrayCompat:
+    107:111:public void removeAtRange(int,int)
+    236:241:public void setValueAt(int,java.lang.Object)
+    265:273:public int indexOfValue(java.lang.Object)
+    296:323:public void append(int,java.lang.Object)
+android.support.v4.util.TimeUtils
+android.support.v4.view.AccessibilityDelegateCompatIcs:
+    28:30:AccessibilityDelegateCompatIcs()
+android.support.v4.view.AccessibilityDelegateCompatJellyBean:
+    30:32:AccessibilityDelegateCompatJellyBean()
+android.support.v4.view.GestureDetectorCompat
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImpl
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplJellybeanMr2
+android.support.v4.view.GravityCompat:
+    public static final int RELATIVE_LAYOUT_DIRECTION
+    public static final int START
+    public static final int END
+    public static final int RELATIVE_HORIZONTAL_GRAVITY_MASK
+    27:62:public GravityCompat()
+    132:133:public static void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+    162:163:public static void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+    186:187:public static void applyDisplay(int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImpl:
+    public abstract void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+    public abstract void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+    public abstract void applyDisplay(int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImplBase:
+    46:47:public void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+    52:53:public void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+    58:59:public void applyDisplay(int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImplJellybeanMr1:
+    71:72:public void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+    77:79:public void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+    83:84:public void applyDisplay(int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompatJellybeanMr1:
+    23:23:GravityCompatJellybeanMr1()
+    31:32:public static void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+    36:37:public static void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+    40:41:public static void applyDisplay(int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.KeyEventCompat:
+    25:118:public KeyEventCompat()
+    150:150:public static int normalizeMetaState(int)
+    154:154:public static boolean metaStateHasModifiers(int,int)
+    158:158:public static boolean metaStateHasNoModifiers(int)
+    162:162:public static boolean hasModifiers(android.view.KeyEvent,int)
+    174:174:public static boolean isTracking(android.view.KeyEvent)
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
+    private static final int META_MODIFIER_MASK
+    private static final int META_ALL_MASK
+    51:63:private static int metaStateFilterDirectionalModifiers(int,int,int,int,int)
+    80:85:public boolean metaStateHasModifiers(int,int)
+    99:99:public boolean isTracking(android.view.KeyEvent)
+android.support.v4.view.KeyEventCompat$EclairKeyEventVersionImpl:
+    111:111:public boolean isTracking(android.view.KeyEvent)
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl:
+    126:126:public boolean metaStateHasModifiers(int,int)
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl:
+    public abstract int normalizeMetaState(int)
+    public abstract boolean metaStateHasModifiers(int,int)
+    public abstract boolean isTracking(android.view.KeyEvent)
+android.support.v4.view.KeyEventCompatEclair:
+    22:22:KeyEventCompatEclair()
+    28:28:public static boolean isTracking(android.view.KeyEvent)
+android.support.v4.view.KeyEventCompatHoneycomb:
+    24:24:KeyEventCompatHoneycomb()
+    30:30:public static boolean metaStateHasModifiers(int,int)
+android.support.v4.view.MenuCompat
+android.support.v4.view.MenuCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompat
+android.support.v4.view.MenuItemCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuItemCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuItemCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompatHoneycomb
+android.support.v4.view.MotionEventCompat:
+    public static final int ACTION_MASK
+    public static final int ACTION_POINTER_DOWN
+    public static final int ACTION_POINTER_UP
+    public static final int ACTION_HOVER_MOVE
+    public static final int ACTION_SCROLL
+    public static final int ACTION_POINTER_INDEX_MASK
+    public static final int ACTION_POINTER_INDEX_SHIFT
+    public static final int ACTION_HOVER_ENTER
+    public static final int ACTION_HOVER_EXIT
+    25:80:public MotionEventCompat()
+android.support.v4.view.MotionEventCompatEclair:
+    24:24:MotionEventCompatEclair()
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip$1
+android.support.v4.view.PagerTabStrip$2
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip$1
+android.support.v4.view.PagerTitleStrip$PageListener
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImpl
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImplBase
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImplIcs
+android.support.v4.view.PagerTitleStripIcs
+android.support.v4.view.PagerTitleStripIcs$SingleLineAllCapsTransform
+android.support.v4.view.VelocityTrackerCompat:
+    25:51:public VelocityTrackerCompat()
+android.support.v4.view.VelocityTrackerCompatHoneycomb:
+    24:24:VelocityTrackerCompatHoneycomb()
+android.support.v4.view.ViewCompat:
+    public static final int OVER_SCROLL_ALWAYS
+    public static final int OVER_SCROLL_IF_CONTENT_SCROLLS
+    public static final int OVER_SCROLL_NEVER
+    private static final long FAKE_FRAME_TIME
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_AUTO
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_YES
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_NO
+    public static final int LAYER_TYPE_NONE
+    public static final int LAYER_TYPE_SOFTWARE
+    public static final int LAYER_TYPE_HARDWARE
+    public static final int LAYOUT_DIRECTION_LTR
+    public static final int LAYOUT_DIRECTION_RTL
+    public static final int LAYOUT_DIRECTION_INHERIT
+    public static final int LAYOUT_DIRECTION_LOCALE
+    32:367:public ViewCompat()
+    421:421:public static boolean canScrollHorizontally(android.view.View,int)
+    432:432:public static boolean canScrollVertically(android.view.View,int)
+    445:445:public static int getOverScrollMode(android.view.View)
+    461:462:public static void setOverScrollMode(android.view.View,int)
+    498:499:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    531:532:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    567:568:public static void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    594:594:public static boolean hasTransientState(android.view.View)
+    605:606:public static void setHasTransientState(android.view.View,boolean)
+    636:637:public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    650:651:public static void postOnAnimation(android.view.View,java.lang.Runnable)
+    667:668:public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    683:683:public static int getImportantForAccessibility(android.view.View)
+    699:700:public static void setImportantForAccessibility(android.view.View,int)
+    717:717:public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    744:744:public static android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    787:788:public static void setLayerType(android.view.View,int,android.graphics.Paint)
+    807:807:public static int getLayerType(android.view.View)
+    818:818:public static int getLabelFor(android.view.View)
+    829:830:public static void setLabelFor(android.view.View,int)
+    863:864:public static void setLayerPaint(android.view.View,android.graphics.Paint)
+    897:898:public static void setLayoutDirection(android.view.View,int)
+android.support.v4.view.ViewCompat$BaseViewCompatImpl:
+    168:168:public boolean canScrollHorizontally(android.view.View,int)
+    171:171:public boolean canScrollVertically(android.view.View,int)
+    174:174:public int getOverScrollMode(android.view.View)
+    178:178:public void setOverScrollMode(android.view.View,int)
+    184:184:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    187:187:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    190:190:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    193:193:public boolean hasTransientState(android.view.View)
+    197:197:public void setHasTransientState(android.view.View,boolean)
+    202:203:public void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    205:206:public void postOnAnimation(android.view.View,java.lang.Runnable)
+    208:209:public void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    214:214:public int getImportantForAccessibility(android.view.View)
+    218:218:public void setImportantForAccessibility(android.view.View,int)
+    220:220:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    223:223:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    227:227:public void setLayerType(android.view.View,int,android.graphics.Paint)
+    229:229:public int getLayerType(android.view.View)
+    232:232:public int getLabelFor(android.view.View)
+    236:236:public void setLabelFor(android.view.View,int)
+    239:239:public void setLayerPaint(android.view.View,android.graphics.Paint)
+    249:249:public void setLayoutDirection(android.view.View,int)
+android.support.v4.view.ViewCompat$GBViewCompatImpl:
+    260:260:public int getOverScrollMode(android.view.View)
+    264:265:public void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompat$HCViewCompatImpl:
+    273:274:public void setLayerType(android.view.View,int,android.graphics.Paint)
+    276:276:public int getLayerType(android.view.View)
+    282:285:public void setLayerPaint(android.view.View,android.graphics.Paint)
+android.support.v4.view.ViewCompat$ICSViewCompatImpl:
+    291:291:public boolean canScrollHorizontally(android.view.View,int)
+    295:295:public boolean canScrollVertically(android.view.View,int)
+    299:300:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    303:304:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    307:308:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+android.support.v4.view.ViewCompat$JBViewCompatImpl:
+    318:318:public boolean hasTransientState(android.view.View)
+    322:323:public void setHasTransientState(android.view.View,boolean)
+    330:331:public void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    334:335:public void postOnAnimation(android.view.View,java.lang.Runnable)
+    338:339:public void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    342:342:public int getImportantForAccessibility(android.view.View)
+    346:347:public void setImportantForAccessibility(android.view.View,int)
+    350:350:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    354:358:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl:
+    371:371:public int getLabelFor(android.view.View)
+    376:377:public void setLabelFor(android.view.View,int)
+    381:382:public void setLayerPaint(android.view.View,android.graphics.Paint)
+    391:392:public void setLayoutDirection(android.view.View,int)
+android.support.v4.view.ViewCompat$ViewCompatImpl:
+    public abstract boolean canScrollHorizontally(android.view.View,int)
+    public abstract boolean canScrollVertically(android.view.View,int)
+    public abstract int getOverScrollMode(android.view.View)
+    public abstract void setOverScrollMode(android.view.View,int)
+    public abstract void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    public abstract boolean hasTransientState(android.view.View)
+    public abstract void setHasTransientState(android.view.View,boolean)
+    public abstract void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    public abstract void postOnAnimation(android.view.View,java.lang.Runnable)
+    public abstract void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    public abstract int getImportantForAccessibility(android.view.View)
+    public abstract void setImportantForAccessibility(android.view.View,int)
+    public abstract boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    public abstract android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    public abstract void setLayerType(android.view.View,int,android.graphics.Paint)
+    public abstract int getLayerType(android.view.View)
+    public abstract int getLabelFor(android.view.View)
+    public abstract void setLabelFor(android.view.View,int)
+    public abstract void setLayerPaint(android.view.View,android.graphics.Paint)
+    public abstract void setLayoutDirection(android.view.View,int)
+android.support.v4.view.ViewCompatGingerbread
+android.support.v4.view.ViewCompatHC:
+    23:23:ViewCompatHC()
+    29:30:public static void setLayerType(android.view.View,int,android.graphics.Paint)
+    33:33:public static int getLayerType(android.view.View)
+android.support.v4.view.ViewCompatICS:
+    27:27:ViewCompatICS()
+    30:30:public static boolean canScrollHorizontally(android.view.View,int)
+    34:34:public static boolean canScrollVertically(android.view.View,int)
+    42:43:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    46:47:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    50:51:public static void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object)
+android.support.v4.view.ViewCompatJB:
+    26:26:public ViewCompatJB()
+    29:29:public static boolean hasTransientState(android.view.View)
+    33:34:public static void setHasTransientState(android.view.View,boolean)
+    42:43:public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    46:47:public static void postOnAnimation(android.view.View,java.lang.Runnable)
+    50:51:public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    54:54:public static int getImportantForAccessibility(android.view.View)
+    58:59:public static void setImportantForAccessibility(android.view.View,int)
+    62:62:public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    66:66:public static java.lang.Object getAccessibilityNodeProvider(android.view.View)
+android.support.v4.view.ViewCompatJellybeanMr1:
+    25:25:ViewCompatJellybeanMr1()
+    28:28:public static int getLabelFor(android.view.View)
+    32:33:public static void setLabelFor(android.view.View,int)
+    36:37:public static void setLayerPaint(android.view.View,android.graphics.Paint)
+    44:45:public static void setLayoutDirection(android.view.View,int)
+android.support.v4.view.ViewConfigurationCompat
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompatFroyo
+android.support.v4.view.ViewGroupCompat:
+    78:80:private ViewGroupCompat()
+    99:99:public static boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatIcsImpl:
+    59:59:public boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatImpl:
+    public abstract boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatStubImpl:
+    40:40:public boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+android.support.v4.view.ViewGroupCompatHC:
+    23:24:private ViewGroupCompatHC()
+android.support.v4.view.ViewGroupCompatIcs
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager$1
+android.support.v4.view.ViewPager$2
+android.support.v4.view.ViewPager$3
+android.support.v4.view.ViewPager$Decor
+android.support.v4.view.ViewPager$ItemInfo
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$MyAccessibilityDelegate
+android.support.v4.view.ViewPager$OnAdapterChangeListener
+android.support.v4.view.ViewPager$OnPageChangeListener
+android.support.v4.view.ViewPager$PageTransformer
+android.support.v4.view.ViewPager$PagerObserver
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState$1
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.ViewPager$ViewPositionComparator
+android.support.v4.view.accessibility.AccessibilityEventCompat
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventIcsImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventStubImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl$1
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerStubImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$1
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$AccessibilityStateChangeListenerBridge
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat:
+    public static final int ACTION_FOCUS
+    public static final int ACTION_CLEAR_FOCUS
+    public static final int ACTION_SELECT
+    public static final int ACTION_CLEAR_SELECTION
+    public static final int ACTION_CLICK
+    public static final int ACTION_LONG_CLICK
+    public static final int ACTION_ACCESSIBILITY_FOCUS
+    public static final int ACTION_CLEAR_ACCESSIBILITY_FOCUS
+    public static final int ACTION_NEXT_AT_MOVEMENT_GRANULARITY
+    public static final int ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
+    public static final int ACTION_NEXT_HTML_ELEMENT
+    public static final int ACTION_PREVIOUS_HTML_ELEMENT
+    public static final int ACTION_SCROLL_FORWARD
+    public static final int ACTION_SCROLL_BACKWARD
+    public static final java.lang.String ACTION_ARGUMENT_MOVEMENT_GRANULARITY_INT
+    public static final java.lang.String ACTION_ARGUMENT_HTML_ELEMENT_STRING
+    public static final int FOCUS_INPUT
+    public static final int FOCUS_ACCESSIBILITY
+    public static final int MOVEMENT_GRANULARITY_CHARACTER
+    public static final int MOVEMENT_GRANULARITY_WORD
+    public static final int MOVEMENT_GRANULARITY_LINE
+    public static final int MOVEMENT_GRANULARITY_PARAGRAPH
+    public static final int MOVEMENT_GRANULARITY_PAGE
+    949:949:public static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat obtain(android.view.View)
+    963:963:public static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat obtain(android.view.View,int)
+    973:973:public static android.support.v4.view.accessibility.AccessibilityNodeInfoCompat obtain()
+    1016:1017:public void setSource(android.view.View,int)
+    1031:1031:public android.support.v4.view.accessibility.AccessibilityNodeInfoCompat findFocus(int)
+    1049:1049:public android.support.v4.view.accessibility.AccessibilityNodeInfoCompat focusSearch(int)
+    1058:1058:public int getWindowId()
+    1067:1067:public int getChildCount()
+    1084:1084:public android.support.v4.view.accessibility.AccessibilityNodeInfoCompat getChild(int)
+    1117:1118:public void addChild(android.view.View,int)
+    1161:1161:public boolean performAction(int)
+    1178:1178:public boolean performAction(int,android.os.Bundle)
+    1194:1195:public void setMovementGranularities(int)
+    1203:1203:public int getMovementGranularities()
+    1220:1227:public java.util.List findAccessibilityNodeInfosByText(java.lang.String)
+    1241:1241:public android.support.v4.view.accessibility.AccessibilityNodeInfoCompat getParent()
+    1279:1280:public void setParent(android.view.View,int)
+    1336:1336:public boolean isCheckable()
+    1351:1352:public void setCheckable(boolean)
+    1360:1360:public boolean isChecked()
+    1375:1376:public void setChecked(boolean)
+    1578:1578:public boolean isPassword()
+    1593:1594:public void setPassword(boolean)
+    1602:1602:public boolean isScrollable()
+    1617:1618:public void setScrollable(boolean)
+    1674:1674:public java.lang.CharSequence getText()
+    1689:1690:public void setText(java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl:
+    402:402:public java.lang.Object obtain()
+    407:407:public java.lang.Object obtain(android.view.View)
+    427:427:public java.util.List findAccessibilityNodeInfosByText(java.lang.Object,java.lang.String)
+    447:447:public java.lang.Object getChild(java.lang.Object,int)
+    452:452:public int getChildCount(java.lang.Object)
+    472:472:public java.lang.Object getParent(java.lang.Object)
+    477:477:public java.lang.CharSequence getText(java.lang.Object)
+    482:482:public int getWindowId(java.lang.Object)
+    487:487:public boolean isCheckable(java.lang.Object)
+    492:492:public boolean isChecked(java.lang.Object)
+    522:522:public boolean isPassword(java.lang.Object)
+    527:527:public boolean isScrollable(java.lang.Object)
+    537:537:public boolean performAction(java.lang.Object,int)
+    552:553:public void setCheckable(java.lang.Object,boolean)
+    557:558:public void setChecked(java.lang.Object,boolean)
+    607:608:public void setPassword(java.lang.Object,boolean)
+    612:613:public void setScrollable(java.lang.Object,boolean)
+    627:628:public void setText(java.lang.Object,java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl:
+    public abstract java.lang.Object obtain()
+    public abstract java.lang.Object obtain(android.view.View)
+    public abstract java.lang.Object obtain(android.view.View,int)
+    public abstract void setSource(java.lang.Object,android.view.View,int)
+    public abstract java.lang.Object findFocus(java.lang.Object,int)
+    public abstract java.lang.Object focusSearch(java.lang.Object,int)
+    public abstract int getWindowId(java.lang.Object)
+    public abstract int getChildCount(java.lang.Object)
+    public abstract java.lang.Object getChild(java.lang.Object,int)
+    public abstract void addChild(java.lang.Object,android.view.View,int)
+    public abstract boolean performAction(java.lang.Object,int)
+    public abstract boolean performAction(java.lang.Object,int,android.os.Bundle)
+    public abstract void setMovementGranularities(java.lang.Object,int)
+    public abstract int getMovementGranularities(java.lang.Object)
+    public abstract java.util.List findAccessibilityNodeInfosByText(java.lang.Object,java.lang.String)
+    public abstract java.lang.Object getParent(java.lang.Object)
+    public abstract void setParent(java.lang.Object,android.view.View,int)
+    public abstract boolean isCheckable(java.lang.Object)
+    public abstract void setCheckable(java.lang.Object,boolean)
+    public abstract boolean isChecked(java.lang.Object)
+    public abstract void setChecked(java.lang.Object,boolean)
+    public abstract boolean isPassword(java.lang.Object)
+    public abstract void setPassword(java.lang.Object,boolean)
+    public abstract boolean isScrollable(java.lang.Object)
+    public abstract void setScrollable(java.lang.Object,boolean)
+    public abstract java.lang.CharSequence getText(java.lang.Object)
+    public abstract void setText(java.lang.Object,java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl:
+    639:639:public java.lang.Object obtain(android.view.View,int)
+    644:644:public java.lang.Object findFocus(java.lang.Object,int)
+    649:649:public java.lang.Object focusSearch(java.lang.Object,int)
+    654:655:public void addChild(java.lang.Object,android.view.View,int)
+    659:660:public void setSource(java.lang.Object,android.view.View,int)
+    684:684:public boolean performAction(java.lang.Object,int,android.os.Bundle)
+    689:690:public void setMovementGranularities(java.lang.Object,int)
+    694:694:public int getMovementGranularities(java.lang.Object)
+    699:700:public void setParent(java.lang.Object,android.view.View,int)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl:
+    100:100:public java.lang.Object obtain()
+    105:105:public java.lang.Object obtain(android.view.View)
+    110:110:public java.lang.Object obtain(android.view.View,int)
+    131:131:public void addChild(java.lang.Object,android.view.View,int)
+    135:135:public java.util.List findAccessibilityNodeInfosByText(java.lang.Object,java.lang.String)
+    155:155:public java.lang.Object getChild(java.lang.Object,int)
+    160:160:public int getChildCount(java.lang.Object)
+    180:180:public java.lang.Object getParent(java.lang.Object)
+    185:185:public java.lang.CharSequence getText(java.lang.Object)
+    190:190:public int getWindowId(java.lang.Object)
+    195:195:public boolean isCheckable(java.lang.Object)
+    200:200:public boolean isChecked(java.lang.Object)
+    240:240:public boolean isPassword(java.lang.Object)
+    245:245:public boolean isScrollable(java.lang.Object)
+    255:255:public boolean performAction(java.lang.Object,int)
+    260:260:public boolean performAction(java.lang.Object,int,android.os.Bundle)
+    266:266:public void setMovementGranularities(java.lang.Object,int)
+    270:270:public int getMovementGranularities(java.lang.Object)
+    286:286:public void setCheckable(java.lang.Object,boolean)
+    291:291:public void setChecked(java.lang.Object,boolean)
+    351:351:public void setPassword(java.lang.Object,boolean)
+    356:356:public void setScrollable(java.lang.Object,boolean)
+    371:371:public void setSource(java.lang.Object,android.view.View,int)
+    375:375:public java.lang.Object findFocus(java.lang.Object,int)
+    380:380:public java.lang.Object focusSearch(java.lang.Object,int)
+    386:386:public void setText(java.lang.Object,java.lang.CharSequence)
+    396:396:public void setParent(java.lang.Object,android.view.View,int)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs:
+    28:28:AccessibilityNodeInfoCompatIcs()
+    31:31:public static java.lang.Object obtain()
+    35:35:public static java.lang.Object obtain(android.view.View)
+    52:53:public static java.util.List findAccessibilityNodeInfosByText(java.lang.Object,java.lang.String)
+    69:69:public static java.lang.Object getChild(java.lang.Object,int)
+    73:73:public static int getChildCount(java.lang.Object)
+    89:89:public static java.lang.Object getParent(java.lang.Object)
+    93:93:public static java.lang.CharSequence getText(java.lang.Object)
+    97:97:public static int getWindowId(java.lang.Object)
+    101:101:public static boolean isCheckable(java.lang.Object)
+    105:105:public static boolean isChecked(java.lang.Object)
+    129:129:public static boolean isPassword(java.lang.Object)
+    133:133:public static boolean isScrollable(java.lang.Object)
+    141:141:public static boolean performAction(java.lang.Object,int)
+    153:154:public static void setCheckable(java.lang.Object,boolean)
+    157:158:public static void setChecked(java.lang.Object,boolean)
+    197:198:public static void setPassword(java.lang.Object,boolean)
+    201:202:public static void setScrollable(java.lang.Object,boolean)
+    213:214:public static void setText(java.lang.Object,java.lang.CharSequence)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean:
+    26:26:AccessibilityNodeInfoCompatJellyBean()
+    29:30:public static void addChild(java.lang.Object,android.view.View,int)
+    33:34:public static void setSource(java.lang.Object,android.view.View,int)
+    45:45:public static boolean performAction(java.lang.Object,int,android.os.Bundle)
+    49:50:public static void setMovementGranularities(java.lang.Object,int)
+    53:53:public static int getMovementGranularities(java.lang.Object)
+    57:57:public static java.lang.Object obtain(android.view.View,int)
+    61:61:public static java.lang.Object findFocus(java.lang.Object,int)
+    65:65:public static java.lang.Object focusSearch(java.lang.Object,int)
+    69:70:public static void setParent(java.lang.Object,android.view.View,int)
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean:
+    28:29:AccessibilityNodeProviderCompatJellyBean()
+android.support.v4.view.accessibility.AccessibilityRecordCompat
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1
+android.support.v4.view.accessibility.AccessibilityRecordCompatJellyBean
+android.support.v4.widget.DrawerLayout:
+    private static final java.lang.String TAG
+    public static final int STATE_IDLE
+    public static final int STATE_DRAGGING
+    public static final int STATE_SETTLING
+    public static final int LOCK_MODE_UNLOCKED
+    public static final int LOCK_MODE_LOCKED_CLOSED
+    public static final int LOCK_MODE_LOCKED_OPEN
+    private static final int MIN_DRAWER_MARGIN
+    private static final int DEFAULT_SCRIM_COLOR
+    private static final int PEEK_DELAY
+    private static final int MIN_FLING_VELOCITY
+    private static final boolean ALLOW_EDGE_LOCK
+    290:292:public void setScrimColor(int)
+    318:320:public void setDrawerLockMode(int)
+    390:395:public void setDrawerLockMode(int,android.view.View)
+    405:412:public int getDrawerLockMode(int)
+    532:540:void moveDrawerToOffset(android.view.View,float)
+android.support.v4.widget.DrawerLayout$LayoutParams:
+    1466:1468:public DrawerLayout$LayoutParams(int,int,int)
+android.support.v4.widget.DrawerLayout$SimpleDrawerListener
+android.support.v4.widget.EdgeEffectCompat
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl
+android.support.v4.widget.EdgeEffectCompatIcs
+android.support.v4.widget.ScrollerCompat:
+    251:251:public static android.support.v4.widget.ScrollerCompat create(android.content.Context)
+    314:314:public float getCurrVelocity()
+    341:342:public void startScroll(int,int,int,int)
+    382:383:public void fling(int,int,int,int,int,int,int,int)
+    410:412:public void fling(int,int,int,int,int,int,int,int,int,int)
+    437:438:public void notifyHorizontalEdgeReached(int,int,int)
+    454:455:public void notifyVerticalEdgeReached(int,int,int)
+    471:471:public boolean isOverScrolled()
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImpl:
+    public abstract float getCurrVelocity(java.lang.Object)
+    public abstract void startScroll(java.lang.Object,int,int,int,int)
+    public abstract void fling(java.lang.Object,int,int,int,int,int,int,int,int)
+    public abstract void fling(java.lang.Object,int,int,int,int,int,int,int,int,int,int)
+    public abstract void notifyHorizontalEdgeReached(java.lang.Object,int,int,int)
+    public abstract void notifyVerticalEdgeReached(java.lang.Object,int,int,int)
+    public abstract boolean isOverScrolled(java.lang.Object)
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImplBase:
+    79:79:public float getCurrVelocity(java.lang.Object)
+    89:90:public void startScroll(java.lang.Object,int,int,int,int)
+    101:102:public void fling(java.lang.Object,int,int,int,int,int,int,int,int)
+    107:108:public void fling(java.lang.Object,int,int,int,int,int,int,int,int,int,int)
+    119:119:public void notifyHorizontalEdgeReached(java.lang.Object,int,int,int)
+    124:124:public void notifyVerticalEdgeReached(java.lang.Object,int,int,int)
+    129:129:public boolean isOverScrolled(java.lang.Object)
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImplGingerbread:
+    166:166:public float getCurrVelocity(java.lang.Object)
+    176:177:public void startScroll(java.lang.Object,int,int,int,int)
+    188:190:public void fling(java.lang.Object,int,int,int,int,int,int,int,int)
+    195:197:public void fling(java.lang.Object,int,int,int,int,int,int,int,int,int,int)
+    207:208:public void notifyHorizontalEdgeReached(java.lang.Object,int,int,int)
+    212:213:public void notifyVerticalEdgeReached(java.lang.Object,int,int,int)
+    217:217:public boolean isOverScrolled(java.lang.Object)
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImplIcs:
+    234:234:public float getCurrVelocity(java.lang.Object)
+android.support.v4.widget.ScrollerCompatGingerbread:
+    24:24:ScrollerCompatGingerbread()
+    47:48:public static void startScroll(java.lang.Object,int,int,int,int)
+    57:58:public static void fling(java.lang.Object,int,int,int,int,int,int,int,int)
+    62:64:public static void fling(java.lang.Object,int,int,int,int,int,int,int,int,int,int)
+    72:73:public static void notifyHorizontalEdgeReached(java.lang.Object,int,int,int)
+    76:77:public static void notifyVerticalEdgeReached(java.lang.Object,int,int,int)
+    80:80:public static boolean isOverScrolled(java.lang.Object)
+android.support.v4.widget.ScrollerCompatIcs
+android.support.v4.widget.SearchViewCompat
+android.support.v4.widget.SearchViewCompat$OnCloseListenerCompat
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl$1
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl$2
+android.support.v4.widget.SearchViewCompat$SearchViewCompatIcsImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatStubImpl
+android.support.v4.widget.SearchViewCompatHoneycomb
+android.support.v4.widget.SearchViewCompatHoneycomb$1
+android.support.v4.widget.SearchViewCompatHoneycomb$2
+android.support.v4.widget.SearchViewCompatHoneycomb$OnCloseListenerCompatBridge
+android.support.v4.widget.SearchViewCompatHoneycomb$OnQueryTextListenerCompatBridge
+android.support.v4.widget.SearchViewCompatIcs
+android.support.v4.widget.SearchViewCompatIcs$MySearchView
+android.support.v4.widget.SimpleCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
+android.support.v4.widget.SimpleCursorAdapter$ViewBinder
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout$1
+android.support.v4.widget.SlidingPaneLayout$AccessibilityDelegate
+android.support.v4.widget.SlidingPaneLayout$DisableLayerRunnable
+android.support.v4.widget.SlidingPaneLayout$DragHelperCallback
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$PanelSlideListener
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState$1
+android.support.v4.widget.SlidingPaneLayout$SimplePanelSlideListener
+android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImpl
+android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImplBase
+android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImplJB
+android.support.v4.widget.SlidingPaneLayout$SlidingPanelLayoutImplJBMR1
+android.support.v4.widget.ViewDragHelper:
+    private static final java.lang.String TAG
+    public static final int INVALID_POINTER
+    public static final int STATE_IDLE
+    public static final int STATE_DRAGGING
+    public static final int STATE_SETTLING
+    public static final int EDGE_LEFT
+    public static final int EDGE_RIGHT
+    public static final int EDGE_TOP
+    public static final int EDGE_BOTTOM
+    public static final int EDGE_ALL
+    public static final int DIRECTION_HORIZONTAL
+    public static final int DIRECTION_VERTICAL
+    public static final int DIRECTION_ALL
+    private static final int EDGE_SIZE
+    private static final int BASE_SETTLE_DURATION
+    private static final int MAX_SETTLE_DURATION
+    412:412:public float getMinVelocity()
+    483:483:public int getActivePointerId()
+    512:522:public void abort()
+    690:701:public void flingCapturedView(int,int,int,int)
+    908:927:protected boolean canScroll(android.view.View,boolean,int,int,int,int)
+com.android.AsyncFacebookRunner
+com.android.AsyncFacebookRunner$1
+com.android.AsyncFacebookRunner$2
+com.android.AsyncFacebookRunner$RequestListener
+com.android.DialogError:
+    private static final long serialVersionUID
+    44:44:int getErrorCode()
+    48:48:java.lang.String getFailingUrl()
+com.android.Facebook:
+    public static final java.lang.String REDIRECT_URI
+    public static final java.lang.String CANCEL_URI
+    public static final java.lang.String TOKEN
+    public static final java.lang.String EXPIRES
+    public static final java.lang.String SINGLE_SIGN_ON_DISABLED
+    public static final int FORCE_DIALOG_AUTH
+    private static final java.lang.String LOGIN
+    private static final int DEFAULT_AUTH_ACTIVITY_CODE
+    public static final java.lang.String FB_APP_SIGNATURE
+    97:98:public void authorize(android.app.Activity,com.android.Facebook$DialogListener)
+    106:107:public void authorize(android.app.Activity,java.lang.String[],com.android.Facebook$DialogListener)
+    240:245:private boolean validateServiceIntent(android.content.Context,android.content.Intent)
+    334:391:public void authorizeCallback(int,int,android.content.Intent)
+    409:420:public boolean extendAccessToken(android.content.Context,com.android.Facebook$ServiceListener)
+    430:433:public boolean extendAccessTokenIfNeeded(android.content.Context,com.android.Facebook$ServiceListener)
+    442:442:public boolean shouldExtendAccessToken()
+    539:545:public java.lang.String logout(android.content.Context)
+    574:579:public java.lang.String request(android.os.Bundle)
+    597:597:public java.lang.String request(java.lang.String)
+    618:618:public java.lang.String request(java.lang.String,android.os.Bundle)
+    643:648:public java.lang.String request(java.lang.String,android.os.Bundle,java.lang.String)
+    665:666:public void dialog(android.content.Context,java.lang.String,com.android.Facebook$DialogListener)
+    769:769:public java.lang.String getAppId()
+    773:774:public void setAppId(java.lang.String)
+    42:42:static synthetic java.lang.String access$100(com.android.Facebook)
+com.android.Facebook$ServiceListener
+com.android.Facebook$TokenRefreshServiceConnection
+com.android.Facebook$TokenRefreshServiceConnection$1
+com.android.FacebookError:
+    private static final long serialVersionUID
+    private java.lang.String mErrorType
+    36:39:public FacebookError(java.lang.String,java.lang.String,int)
+    42:42:public int getErrorCode()
+    46:46:public java.lang.String getErrorType()
+com.android.FbDialog:
+    static final int FB_BLUE
+    static final int MARGIN
+    static final int PADDING
+    static final java.lang.String DISPLAY_STRING
+    static final java.lang.String FB_ICON
+com.android.Util:
+    37:37:public Util()
+    55:68:public static java.lang.String encodePostBody(android.os.Bundle,java.lang.String)
+    147:209:public static java.lang.String openUrl(java.lang.String,java.lang.String,android.os.Bundle)
+    213:219:private static java.lang.String read(java.io.InputStream)
+    228:231:public static void clearCookies(android.content.Context)
+    253:279:public static org.json.JSONObject parseJson(java.lang.String)
+com.android.vending.billing.BillingReceiver:
+    private static final java.lang.String TAG
+    185:198:public static void debugIntent(java.lang.String,java.lang.String,android.content.Intent)
+com.android.vending.billing.BillingService:
+    private static final java.lang.String TAG
+    private static com.android.vending.billing.PurchaseObserver purchaseObserver
+    344:345:public void setContext(android.content.Context)
+    348:349:public static void setPurchaseObserver(com.android.vending.billing.PurchaseObserver)
+    426:426:public boolean checkBillingSupported()
+    441:441:public boolean requestPurchase(java.lang.String,java.lang.String)
+    451:451:public boolean restoreTransactions()
+    616:620:public void unbind()
+    51:51:static synthetic com.android.vending.billing.PurchaseObserver access$400()
+com.android.vending.billing.BillingService$CheckBillingSupported
+com.android.vending.billing.BillingService$RequestPurchase
+com.android.vending.billing.BillingService$RestoreTransactions
+com.android.vending.billing.Consts:
+    public static final java.lang.String MARKET_BILLING_SERVICE_ACTION
+    public static final java.lang.String ACTION_CONFIRM_NOTIFICATION
+    public static final java.lang.String ACTION_GET_PURCHASE_INFORMATION
+    public static final java.lang.String ACTION_RESTORE_TRANSACTIONS
+    public static final java.lang.String ACTION_NOTIFY
+    public static final java.lang.String ACTION_RESPONSE_CODE
+    public static final java.lang.String ACTION_PURCHASE_STATE_CHANGED
+    public static final java.lang.String ACTION_INSTALL_REFERRER
+    public static final java.lang.String NOTIFICATION_ID
+    public static final java.lang.String INAPP_SIGNED_DATA
+    public static final java.lang.String INAPP_SIGNATURE
+    public static final java.lang.String INAPP_REQUEST_ID
+    public static final java.lang.String INAPP_RESPONSE_CODE
+    public static final java.lang.String BILLING_REQUEST_METHOD
+    public static final java.lang.String BILLING_REQUEST_API_VERSION
+    public static final java.lang.String BILLING_REQUEST_PACKAGE_NAME
+    public static final java.lang.String BILLING_REQUEST_ITEM_ID
+    public static final java.lang.String BILLING_REQUEST_DEVELOPER_PAYLOAD
+    public static final java.lang.String BILLING_REQUEST_NOTIFY_IDS
+    public static final java.lang.String BILLING_REQUEST_NONCE
+    public static final java.lang.String BILLING_RESPONSE_RESPONSE_CODE
+    public static final java.lang.String BILLING_RESPONSE_PURCHASE_INTENT
+    public static final java.lang.String BILLING_RESPONSE_REQUEST_ID
+    22:46:public Consts()
+com.android.vending.billing.IMarketBillingService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_sendBillingRequest
+    14:16:public IMarketBillingService$Stub()
+    34:34:public android.os.IBinder asBinder()
+com.android.vending.billing.IMarketBillingService$Stub$Proxy:
+    82:82:public java.lang.String getInterfaceDescriptor()
+com.android.vending.billing.PurchaseObserver
+com.android.vending.billing.PurchaseObserver$1
+com.android.vending.billing.Security:
+    private static final java.lang.String TAG
+    private static final java.lang.String KEY_FACTORY_ALGORITHM
+    private static final java.lang.String SIGNATURE_ALGORITHM
+    32:50:public Security()
+com.android.vending.billing.util.Base64:
+    public static final boolean ENCODE
+    public static final boolean DECODE
+    private static final byte EQUALS_SIGN
+    private static final byte NEW_LINE
+    private static final byte WHITE_SPACE_ENC
+    private static final byte EQUALS_SIGN_ENC
+    201:225:private static byte[] encode3to4(byte[],int,int,byte[],int,byte[])
+    237:237:public static java.lang.String encode(byte[])
+    249:249:public static java.lang.String encodeWebSafe(byte[],boolean)
+    268:280:public static java.lang.String encode(byte[],int,int,byte[],boolean)
+    299:341:public static byte[] encode(byte[],int,int,byte[],int)
+    415:416:public static byte[] decodeWebSafe(java.lang.String)
+    429:429:public static byte[] decode(byte[])
+    441:441:public static byte[] decodeWebSafe(byte[])
+    474:474:public static byte[] decodeWebSafe(byte[],int,int)
+com.android.vending.billing.util.Base64DecoderException:
+    private static final long serialVersionUID
+com.google.android.gcm.GCMBaseIntentService:
+    public static final java.lang.String TAG
+    private static final java.lang.String WAKELOCK_KEY
+    private static final java.lang.String EXTRA_TOKEN
+com.google.android.gcm.GCMBroadcastReceiver:
+    private static final java.lang.String TAG
+com.google.android.gcm.GCMConstants
+com.google.android.gcm.GCMRegistrar:
+    public static final long DEFAULT_ON_SERVER_LIFESPAN_MS
+    private static final java.lang.String TAG
+    private static final java.lang.String BACKOFF_MS
+    private static final java.lang.String GSF_PACKAGE
+    private static final java.lang.String PREFERENCES
+    private static final int DEFAULT_BACKOFF_MS
+    private static final java.lang.String PROPERTY_REG_ID
+    private static final java.lang.String PROPERTY_APP_VERSION
+    private static final java.lang.String PROPERTY_ON_SERVER
+    private static final java.lang.String PROPERTY_ON_SERVER_EXPIRATION_TIME
+    private static final java.lang.String PROPERTY_ON_SERVER_LIFESPAN
+    89:101:public static void checkDevice(android.content.Context)
+    129:173:public static void checkManifest(android.content.Context)
+    177:200:private static void checkReceiver(android.content.Context,java.util.Set,java.lang.String)
+    217:219:public static varargs void register(android.content.Context,java.lang.String[])
+    252:254:public static void unregister(android.content.Context)
+    264:269:public static synchronized void onDestroy(android.content.Context)
+    385:395:public static void setRegisteredOnServer(android.content.Context,boolean)
+    407:419:public static boolean isRegisteredOnServer(android.content.Context)
+    430:433:public static long getRegisterOnServerLifespan(android.content.Context)
+    442:446:public static void setRegisterOnServerLifespan(android.content.Context,long)
+    505:506:private GCMRegistrar()
+com.seeapenny.client.AlarmManagerBroadcastReceiver:
+    public static final java.lang.String ID
+com.seeapenny.client.AppState:
+    private com.seeapenny.client.server.User contact
+    private com.seeapenny.client.server.Image contactPhoto
+    private boolean captchaSubmitted
+    private int lookAtMeTopRating
+    44:45:public void setContact(com.seeapenny.client.server.User)
+    48:48:public com.seeapenny.client.server.User getContact()
+    52:53:public void setContactPhoto(com.seeapenny.client.server.Image)
+    56:56:public com.seeapenny.client.server.Image getContactPhoto()
+    60:61:public void setLoginRequest(com.seeapenny.client.server.requests.LoginRequest)
+    68:69:public void setCaptchaSubmitted(boolean)
+    72:72:public boolean isCaptchaSubmitted()
+    76:77:public void setLookAtMeTopRating(int)
+    80:80:public int getLookAtMeTopRating()
+    84:85:public void setRefreshFavourites(boolean)
+    88:88:public boolean isRefreshFavourites()
+    92:93:public void setRefreshNotifications(boolean)
+    96:96:public boolean isRefreshNotifications()
+    100:101:public void setRefreshLookAtMe(boolean)
+    104:104:public boolean isRefreshLookAtMe()
+    108:109:public void setRefreshFlirts(boolean)
+    112:112:public boolean isRefreshFlirts()
+    116:117:public void setRefreshChats(boolean)
+    120:120:public boolean isRefreshChats()
+    124:125:public void setRefreshChat(boolean)
+    128:128:public boolean isRefreshChat()
+    132:133:public void setUnreadMessagesNotified(boolean)
+    136:136:public boolean isUnreadMessagesNotified()
+com.seeapenny.client.BuildConfig
+com.seeapenny.client.CacheManager:
+    47:47:public com.seeapenny.client.CachedBitmapDrawable getDrawable(java.lang.String)
+    106:109:public void removeEntry(java.lang.String)
+com.seeapenny.client.CachedBitmapDrawable:
+    138:141:public void setDrawableCallback(android.graphics.drawable.Drawable$Callback)
+    169:188:public static com.seeapenny.client.CachedBitmapDrawable create(android.content.Context,android.net.Uri,int)
+    192:201:private static byte[] load(java.io.InputStream)
+    205:209:private static int getPowerOfTwoForSampleRatio(double)
+com.seeapenny.client.ConnectionDialog
+com.seeapenny.client.FileUtils:
+    10:10:public FileUtils()
+    13:17:public static java.io.File createDir(java.io.File,java.lang.String)
+com.seeapenny.client.General:
+    29:29:public General()
+com.seeapenny.client.LocationRequest
+com.seeapenny.client.OrderInfo:
+    private static final java.lang.String ORDER_ID
+    private static final java.lang.String PRODUCT_ID
+    private static final java.lang.String USER_ID
+    47:53:public static com.seeapenny.client.OrderInfo fromJson(java.lang.String)
+com.seeapenny.client.PhotoCapturer:
+    53:60:public android.graphics.Bitmap handleIcon(android.content.Intent)
+    77:77:public android.net.Uri getPhotoUri()
+    81:82:public void setPhotoUri(android.net.Uri)
+com.seeapenny.client.PhotoChooser:
+    public static final int PHOTO_CAPTURE_REQUEST_CODE
+    public static final int PICK_PHOTO_REQUEST_CODE
+    190:193:public android.net.Uri getPhotoUri()
+    197:203:public void setPhotoUri(android.net.Uri)
+com.seeapenny.client.PreferenceAttributes
+com.seeapenny.client.PurchasedLogic:
+    70:70:public static void checkPurchasedOrders()
+com.seeapenny.client.R:
+    10:10:public R()
+com.seeapenny.client.R$anim
+com.seeapenny.client.R$array
+com.seeapenny.client.R$attr
+com.seeapenny.client.R$bool
+com.seeapenny.client.R$color
+com.seeapenny.client.R$dimen
+com.seeapenny.client.R$drawable
+com.seeapenny.client.R$id
+com.seeapenny.client.R$integer
+com.seeapenny.client.R$layout
+com.seeapenny.client.R$menu
+com.seeapenny.client.R$plurals
+com.seeapenny.client.R$raw
+com.seeapenny.client.R$string
+com.seeapenny.client.R$style
+com.seeapenny.client.R$styleable:
+    public static final int FlowGridLayout_childrenPerLine
+    public static final int Gallery1_android_galleryItemBackground
+    public static final int MagicTextView_foreground
+    public static final int MagicTextView_innerShadowColor
+    public static final int MagicTextView_innerShadowDx
+    public static final int MagicTextView_innerShadowDy
+    public static final int MagicTextView_innerShadowRadius
+    public static final int MagicTextView_outerShadowColor
+    public static final int MagicTextView_outerShadowDx
+    public static final int MagicTextView_outerShadowDy
+    public static final int MagicTextView_outerShadowRadius
+    public static final int MagicTextView_strokeColor
+    public static final int MagicTextView_strokeJoinStyle
+    public static final int MagicTextView_strokeMiter
+    public static final int MagicTextView_strokeWidth
+    public static final int MagicTextView_typeface
+    public static final int PageCurlView_curlMode
+    public static final int PageCurlView_curlSpeed
+    public static final int PageCurlView_enableDebugMode
+    public static final int PageCurlView_initialEdgeOffset
+    public static final int PageCurlView_updateRate
+    public static final int SherlockActionBar_background
+    public static final int SherlockActionBar_backgroundSplit
+    public static final int SherlockActionBar_backgroundStacked
+    public static final int SherlockActionBar_customNavigationLayout
+    public static final int SherlockActionBar_displayOptions
+    public static final int SherlockActionBar_divider
+    public static final int SherlockActionBar_height
+    public static final int SherlockActionBar_homeLayout
+    public static final int SherlockActionBar_icon
+    public static final int SherlockActionBar_indeterminateProgressStyle
+    public static final int SherlockActionBar_itemPadding
+    public static final int SherlockActionBar_logo
+    public static final int SherlockActionBar_navigationMode
+    public static final int SherlockActionBar_progressBarPadding
+    public static final int SherlockActionBar_progressBarStyle
+    public static final int SherlockActionBar_subtitle
+    public static final int SherlockActionBar_subtitleTextStyle
+    public static final int SherlockActionBar_title
+    public static final int SherlockActionBar_titleTextStyle
+    public static final int SherlockActionMenuItemView_android_minWidth
+    public static final int SherlockActionMode_background
+    public static final int SherlockActionMode_backgroundSplit
+    public static final int SherlockActionMode_height
+    public static final int SherlockActionMode_subtitleTextStyle
+    public static final int SherlockActionMode_titleTextStyle
+    public static final int SherlockActivityChooserView_android_background
+    public static final int SherlockActivityChooserView_expandActivityOverflowButtonDrawable
+    public static final int SherlockActivityChooserView_initialActivityCount
+    public static final int SherlockMenuGroup_android_checkableBehavior
+    public static final int SherlockMenuGroup_android_enabled
+    public static final int SherlockMenuGroup_android_id
+    public static final int SherlockMenuGroup_android_menuCategory
+    public static final int SherlockMenuGroup_android_orderInCategory
+    public static final int SherlockMenuGroup_android_visible
+    public static final int SherlockMenuItem_android_actionLayout
+    public static final int SherlockMenuItem_android_actionProviderClass
+    public static final int SherlockMenuItem_android_actionViewClass
+    public static final int SherlockMenuItem_android_alphabeticShortcut
+    public static final int SherlockMenuItem_android_checkable
+    public static final int SherlockMenuItem_android_checked
+    public static final int SherlockMenuItem_android_enabled
+    public static final int SherlockMenuItem_android_icon
+    public static final int SherlockMenuItem_android_id
+    public static final int SherlockMenuItem_android_menuCategory
+    public static final int SherlockMenuItem_android_numericShortcut
+    public static final int SherlockMenuItem_android_onClick
+    public static final int SherlockMenuItem_android_orderInCategory
+    public static final int SherlockMenuItem_android_showAsAction
+    public static final int SherlockMenuItem_android_title
+    public static final int SherlockMenuItem_android_titleCondensed
+    public static final int SherlockMenuItem_android_visible
+    public static final int SherlockMenuView_headerBackground
+    public static final int SherlockMenuView_horizontalDivider
+    public static final int SherlockMenuView_itemBackground
+    public static final int SherlockMenuView_itemIconDisabledAlpha
+    public static final int SherlockMenuView_itemTextAppearance
+    public static final int SherlockMenuView_preserveIconSpacing
+    public static final int SherlockMenuView_verticalDivider
+    public static final int SherlockMenuView_windowAnimationStyle
+    public static final int SherlockSearchView_android_imeOptions
+    public static final int SherlockSearchView_android_inputType
+    public static final int SherlockSearchView_android_maxWidth
+    public static final int SherlockSearchView_iconifiedByDefault
+    public static final int SherlockSearchView_queryHint
+    public static final int SherlockSpinner_android_dropDownHorizontalOffset
+    public static final int SherlockSpinner_android_dropDownSelector
+    public static final int SherlockSpinner_android_dropDownVerticalOffset
+    public static final int SherlockSpinner_android_dropDownWidth
+    public static final int SherlockSpinner_android_gravity
+    public static final int SherlockSpinner_android_popupBackground
+    public static final int SherlockSpinner_android_popupPromptView
+    public static final int SherlockSpinner_android_prompt
+    public static final int SherlockTheme_actionBarDivider
+    public static final int SherlockTheme_actionBarItemBackground
+    public static final int SherlockTheme_actionBarSize
+    public static final int SherlockTheme_actionBarSplitStyle
+    public static final int SherlockTheme_actionBarStyle
+    public static final int SherlockTheme_actionBarTabBarStyle
+    public static final int SherlockTheme_actionBarTabStyle
+    public static final int SherlockTheme_actionBarTabTextStyle
+    public static final int SherlockTheme_actionBarWidgetTheme
+    public static final int SherlockTheme_actionButtonStyle
+    public static final int SherlockTheme_actionDropDownStyle
+    public static final int SherlockTheme_actionMenuTextAppearance
+    public static final int SherlockTheme_actionMenuTextColor
+    public static final int SherlockTheme_actionModeBackground
+    public static final int SherlockTheme_actionModeCloseButtonStyle
+    public static final int SherlockTheme_actionModeCloseDrawable
+    public static final int SherlockTheme_actionModePopupWindowStyle
+    public static final int SherlockTheme_actionModeShareDrawable
+    public static final int SherlockTheme_actionModeSplitBackground
+    public static final int SherlockTheme_actionModeStyle
+    public static final int SherlockTheme_actionOverflowButtonStyle
+    public static final int SherlockTheme_actionSpinnerItemStyle
+    public static final int SherlockTheme_activatedBackgroundIndicator
+    public static final int SherlockTheme_activityChooserViewStyle
+    public static final int SherlockTheme_android_windowIsFloating
+    public static final int SherlockTheme_buttonStyleSmall
+    public static final int SherlockTheme_dividerVertical
+    public static final int SherlockTheme_dropDownListViewStyle
+    public static final int SherlockTheme_dropdownListPreferredItemHeight
+    public static final int SherlockTheme_homeAsUpIndicator
+    public static final int SherlockTheme_listPopupWindowStyle
+    public static final int SherlockTheme_listPreferredItemHeightSmall
+    public static final int SherlockTheme_listPreferredItemPaddingLeft
+    public static final int SherlockTheme_listPreferredItemPaddingRight
+    public static final int SherlockTheme_popupMenuStyle
+    public static final int SherlockTheme_searchAutoCompleteTextView
+    public static final int SherlockTheme_searchDropdownBackground
+    public static final int SherlockTheme_searchResultListItemHeight
+    public static final int SherlockTheme_searchViewCloseIcon
+    public static final int SherlockTheme_searchViewEditQuery
+    public static final int SherlockTheme_searchViewEditQueryBackground
+    public static final int SherlockTheme_searchViewGoIcon
+    public static final int SherlockTheme_searchViewSearchIcon
+    public static final int SherlockTheme_searchViewTextField
+    public static final int SherlockTheme_searchViewTextFieldRight
+    public static final int SherlockTheme_searchViewVoiceIcon
+    public static final int SherlockTheme_selectableItemBackground
+    public static final int SherlockTheme_spinnerDropDownItemStyle
+    public static final int SherlockTheme_spinnerItemStyle
+    public static final int SherlockTheme_textAppearanceLargePopupMenu
+    public static final int SherlockTheme_textAppearanceListItemSmall
+    public static final int SherlockTheme_textAppearanceSearchResultSubtitle
+    public static final int SherlockTheme_textAppearanceSearchResultTitle
+    public static final int SherlockTheme_textAppearanceSmall
+    public static final int SherlockTheme_textAppearanceSmallPopupMenu
+    public static final int SherlockTheme_textColorPrimary
+    public static final int SherlockTheme_textColorPrimaryDisableOnly
+    public static final int SherlockTheme_textColorPrimaryInverse
+    public static final int SherlockTheme_textColorSearchUrl
+    public static final int SherlockTheme_windowActionBar
+    public static final int SherlockTheme_windowActionBarOverlay
+    public static final int SherlockTheme_windowActionModeOverlay
+    public static final int SherlockTheme_windowContentOverlay
+    public static final int SherlockTheme_windowMinWidthMajor
+    public static final int SherlockTheme_windowMinWidthMinor
+    public static final int SherlockTheme_windowNoTitle
+    public static final int SherlockTheme_windowSplitActionBar
+    public static final int SherlockView_android_focusable
+    2315:2315:public R$styleable()
+com.seeapenny.client.SeeapennyApp:
+    public static final boolean DEBUG
+    private static final boolean STRICT_MODE
+    private static final int SYNC_NOTIFY_ID
+    private static final double CM_PER_INCHE
+    public static final int INCHES_PER_FOOT
+    public static final double METERS_PER_MILE
+    private static final long SECOND
+    public static final long MINUTE
+    private static final long HOUR
+    private static final long DAY
+    private static final long WEEK
+    private static final long MONTH
+    private static final long YEAR
+    private static final java.lang.String LOGIN_PREF
+    private static final java.lang.String PASSWORD_PREF
+    private static final java.lang.String IS_AUTHORIZED
+    private static final java.lang.String UID_PREF
+    private static final java.lang.String VK_LOGIN_PREF
+    private static final java.lang.String FB_LOGIN_PREF
+    private static final java.lang.String GOOGLE_LOGIN_PREF
+    private static final java.lang.String TWITTER_LOGIN_PREF
+    private static final java.lang.String MARKET_REFERRER_PREF
+    private static final java.lang.String ORDER_PREF
+    private static final java.lang.String INSTALL_PREF
+    private static final java.lang.String NUM_GS_TIPS_PREF
+    private static final java.lang.String NUM_CA_TIPS_PREF
+    private static final java.lang.String SESSION_STATE_FILE
+    private static final java.lang.String APP_STATE_FILE
+    private static final java.lang.String COOKIES_FILE
+    private static final java.lang.String SOUND
+    private static final java.lang.String VIBRATE
+    private static final java.lang.String CURRENCY
+    private static final java.lang.String CURRENCY_POSITION
+    private static final java.lang.String ROTATION
+    private static final java.lang.String SCREEN
+    private static final java.lang.String SORT_ASC
+    private static final java.lang.String IGNORE_BOUGHT_GOOD
+    private static final java.lang.String VOICE_RECOGNITION
+    private static final java.lang.String LANGUAGE_POSITION
+    private static final java.lang.String LIST_NAME
+    private static final java.lang.String GOOD_SORT
+    private static final java.lang.String PRODUCT_IMAGE
+    private static final java.lang.String PRODUCT_NOTE
+    private static final java.lang.String GOOD_DUPLICATE
+    private static final java.lang.String IS_SHOWN_GUIDE_DIALOG
+    private static final java.lang.String REMOVE_SHOPLIST
+    private static final java.lang.String USER
+    private static final java.lang.String USER_ID
+    private static final java.lang.String LOGIN_REQUEST
+    private com.seeapenny.client.server.User user
+    private android.location.Location location
+    private long lastSessionTime
+    private long sessionDuration
+    private java.lang.String sessionId
+    private com.seeapenny.client.server.PopupNotificationManager popupNotificationManager
+    360:360:public static com.seeapenny.client.server.PopupNotificationManager getPopupNotificationManager()
+    372:373:public void setSessionState(com.seeapenny.client.server.SessionState)
+    545:545:public void removeInListName(java.lang.String)
+    725:728:public void saveMarketReferrer(java.lang.String)
+    759:759:public int loadNumGallerySwipeTips()
+    763:766:public void saveNumGallerySwipeTips(int)
+    1127:1128:public void setLocation(android.location.Location)
+    1132:1132:public android.location.Location getLocation()
+    1218:1219:private void saveList(java.util.List,java.lang.String)
+    1257:1257:private java.util.List loadList(java.lang.String)
+    1295:1303:public java.io.File getPermanentDir()
+    1307:1312:public java.io.File getAudioFile(java.lang.String)
+com.seeapenny.client.SyncService$RecoveryGoodCategoryHttpCommandListener
+com.seeapenny.client.activity.DatabaseTest
+com.seeapenny.client.activity.EditGoodActivity:
+    private static final int DIALOG_MODE_CHOOSE_PHOTO
+    private static final java.lang.String TEMP
+    637:663:public void sendPhotoUploadCommand(com.seeapenny.client.http.HttpUploadCommand,android.net.Uri,java.lang.String)
+com.seeapenny.client.activity.GalleryCustom:
+    23:23:private boolean isScrollingLeft(android.view.MotionEvent,android.view.MotionEvent)
+com.seeapenny.client.activity.GoodActivity:
+    private static final int ACTION_ITEM_STATE
+    private static final int ACTION_ITEM_EDIT
+    private static final int ACTION_ITEM_MOVE
+    private static final int ACTION_ITEM_REMOVE
+    private static final int ACTION_ITEM_COPY
+    463:469:private int countLeftGoods(java.util.List)
+com.seeapenny.client.activity.GuideActivity:
+    android.widget.LinearLayout linear
+com.seeapenny.client.activity.LoginActivity:
+    private static final int MIN_NICKNAME
+    private static final int MAX_NICKNAME
+    private static final int MIN_LOGIN
+    private static final int MAX_LOGIN
+    private static final int MIN_PASSWORD
+    private static final int MAX_PASSWORD
+    private android.widget.TextView forgotPassword
+    private com.seeapenny.client.http.HttpCommand authCommand
+    private com.seeapenny.client.http.HttpCommand remindCommand
+    private android.widget.Button authFacebook
+    169:188:private void initRemindPassword()
+    196:199:private void sendRemindPassword(java.lang.String)
+    44:44:static synthetic boolean access$000(com.seeapenny.client.activity.LoginActivity,java.lang.String)
+    44:44:static synthetic void access$100(com.seeapenny.client.activity.LoginActivity,java.lang.String)
+com.seeapenny.client.activity.LoginActivity$1
+com.seeapenny.client.activity.LoginManager:
+    protected static final java.lang.String SERVICE_PRICES_CACHE_NAME
+    protected static final java.lang.String POINT_PRICES_CACHE_NAME
+    private static final int LOGIN_MODE
+    private static final int FB_LOGIN_MODE
+    private static final int VK_LOGIN_MODE
+    private static final int GOOGLE_LOGIN_MODE
+    private static final int TWITTER_LOGIN_MODE
+    private static final java.lang.String ACCESS_TOKEN
+    private static final java.lang.String CODE
+    public static final int FACEBOOK_REQUEST_CODE
+    public static final java.lang.String CHANGE_SCREEN
+    public static final java.lang.String ERROR_CHANGE_SCREEN
+    public static final java.lang.String FB_APP_ID
+com.seeapenny.client.activity.Maintenance:
+    public static final java.lang.String MESSAGE
+com.seeapenny.client.activity.ProfileActivity:
+    private static final int DIALOG_MODE_CHOOSE_PHOTO
+    186:217:private void showDialogChangePassword()
+    220:224:private void sendChangePassword(java.lang.String,java.lang.String)
+    39:39:static synthetic java.lang.String access$002(com.seeapenny.client.activity.ProfileActivity,java.lang.String)
+    39:39:static synthetic void access$100(com.seeapenny.client.activity.ProfileActivity,java.lang.String,java.lang.String)
+com.seeapenny.client.activity.ProfileActivity$2
+com.seeapenny.client.activity.ProfileActivity$3
+com.seeapenny.client.activity.SeeapennyActivity:
+    private static final java.lang.String BASE_URL
+    public static final java.lang.String LOGIN_URL
+    public static final java.lang.String LOGIN_VK_URL
+    public static final java.lang.String LOGIN_FB_URL
+    public static final java.lang.String LOGIN_GOOGLE_URL
+    public static final java.lang.String MY_PROFILE_URL
+    public static final java.lang.String REG_URL
+    public static final java.lang.String SHOPS_URL
+    public static final java.lang.String REVIEWS_URL
+    public static final java.lang.String SHOP_GOODS_URL
+    public static final java.lang.String LOG_ERROR_URL
+    public static final java.lang.String LONG_POLL_URL
+    public static final java.lang.String NOTIFICATION_CONFIRM_URL
+    public static final java.lang.String LOGOUT_URL
+    public static final java.lang.String GET_LIST
+    public static final java.lang.String ADD_LIST
+    public static final java.lang.String CHANGE_LIST
+    public static final java.lang.String RESTORE_PASSW_URL
+    public static final java.lang.String REMOVE_LIST
+    public static final java.lang.String REMOVE_ALL_LIST
+    public static final java.lang.String GET_GOODS
+    public static final java.lang.String ADD_GOODS
+    public static final java.lang.String REMOVE_GOODS
+    public static final java.lang.String SAVE_GOODS
+    public static final java.lang.String CHANGE_STATUS_GOOD
+    public static final java.lang.String REMOVE_ALL_GOOD
+    public static final java.lang.String EXCLUDED_ALL_GOOD
+    public static final java.lang.String SYNCHRONIZED_SHOP_LIST_NO_CHANGES
+    public static final java.lang.String SYNCHRONIZED_SHOP_LIST_INSERT
+    public static final java.lang.String SYNCHRONIZED_SHOP_LIST_UPDATE
+    public static final java.lang.String SYNCHRONIZED_SHOP_LIST_DELETE
+    public static final java.lang.String SYNCHRONIZED_SHOP_LIST_LAST_ID
+    public static final java.lang.String RECOVERY_GOOD_URL
+    public static final java.lang.String RECOVERY_SHOP_LIST_URL
+    public static final java.lang.String SYNCHRONIZED_GOOD_CATEGORY_NO_CHANGES
+    public static final java.lang.String SYNCHRONIZED_GOOD_CATEGORY_INSERT
+    public static final java.lang.String SYNCHRONIZED_GOOD_CATEGORY_UPDATE
+    public static final java.lang.String SYNCHRONIZED_GOOD_CATEGORY_DELETE
+    public static final java.lang.String SYNCHRONIZED_GOOD_CATEGORY_LAST_ID
+    public static final java.lang.String SYNCHRONIZED_GOOD_LAST_ID
+    public static final java.lang.String SYNCHRONIZED_GOOD_NO_CHANGES
+    public static final java.lang.String SYNCHRONIZED_GOOD_INSERT
+    public static final java.lang.String SYNCHRONIZED_GOOD_UPDATE
+    public static final java.lang.String SYNCHRONIZED_GOOD_DELETE
+    public static final java.lang.String UPLOAD_PHOTO_GOOD
+    public static final java.lang.String UPLOAD_PHOTO_PROFILE
+    public static final java.lang.String ATTACH_PHOTO
+    public static final java.lang.String REMOVE_PHOTO
+    public static final java.lang.String ADD_CATEGORY
+    public static final java.lang.String REMOVE_CATEGORY
+    public static final java.lang.String EDIT_CATEGORY
+    public static final java.lang.String RECOVERY_CATEGORY_URL
+    public static final java.lang.String RECOVERY_URL
+    public static final java.lang.String CHANGE_URL
+    public static final java.lang.String C2DM_SENDER
+    public static final java.lang.String C2DM_INSTALL_URL
+    public static final java.lang.String C2DM_UPDATE_URL
+    public static final java.lang.String SHARE_URL
+    public static final java.lang.String UNSHARE_URL
+    public static final java.lang.String ADD_PURCHASED_URL
+    public static final java.lang.String SHARE_EMAIL
+    public static final java.lang.String CATEGORY_NAME
+    public static final java.lang.String CATEGORY_OWNER_ID
+    public static final java.lang.String ID_PARAM
+    public static final java.lang.String IMEI_PARAM
+    public static final java.lang.String UID_PARAM
+    public static final java.lang.String DEVICE_PARAM
+    public static final java.lang.String APP_LOCALE_PARAM
+    public static final java.lang.String PARTNER_PARAM
+    public static final java.lang.String PRODUCT_PARAM
+    public static final java.lang.String ORDER_NUMBER_PARAM
+    public static final java.lang.String USER_PARAM
+    public static final java.lang.String LIST_ID_PARAM
+    public static final java.lang.String LIST_NAME
+    public static final java.lang.String LIST_MODIFIED_TIME
+    public static final java.lang.String LIST_CREATE_TIME
+    public static final java.lang.String LIST_OWNER_ID
+    public static final java.lang.String GOOD_ID_PARAM
+    public static final java.lang.String GOOD_LIST_ID
+    public static final java.lang.String GOOD_MEASURE
+    public static final java.lang.String GOOD_MODIFIED_TIME
+    public static final java.lang.String GOOD_IMAGE_ID
+    public static final java.lang.String GOOD_PRICE
+    public static final java.lang.String GOOD_AUTHOR_ID
+    public static final java.lang.String GOOD_STATE
+    public static final java.lang.String GOOD_CREATE_TIME
+    public static final java.lang.String GOOD_QUANTITY
+    public static final java.lang.String GOOD_NAME
+    public static final java.lang.String GOOD_CATEGORY
+    public static final java.lang.String GOOD_NOTE
+    public static final java.lang.String GOOD_PRIORITY
+    public static final java.lang.String LOGIN
+    public static final java.lang.String CURRENT_PASSWORD
+    public static final java.lang.String NEW_PASSWORD
+    public static final int RESULT_SPEECH
+    309:317:public void showPopupNotification(com.seeapenny.client.server.PopupNotificationMessage)
+    529:531:public void cancelNotifications()
+    745:745:public boolean isShown()
+com.seeapenny.client.activity.ShopListActivity:
+    private static final int RESULT_SPEECH
+    private static final int ACTION_ITEM_OPEN
+    private static final int ACTION_ITEM_EDIT
+    private static final int ACTION_ITEM_SORT
+    private static final int ACTION_ITEM_SEND
+    private static final int ACTION_ITEM_REMIND
+    private static final int ACTION_ITEM_REMIND_REMOVE
+    private static final int ACTION_ITEM_REMOVE
+    private static final int MENU_LEFT_AUTH
+    private static final int MENU_LEFT_PROFILE
+    private static final int MENU_LEFT_HELP
+    private static final int MENU_LEFT_GUIDE
+    private static final int MENU_LEFT_ABOUT_APP
+    private static final int MENU_LEFT_LOGOUT
+    506:524:private void purchase(java.lang.String)
+com.seeapenny.client.activity.SplashActivity:
+    private static final long MIN_TIME
+    private static final int LOGIN_ACTION
+    private static final int OFFLINE
+    private volatile boolean facebookLoginProcess
+    201:202:protected void loginEnd()
+com.seeapenny.client.adapter.DrawerMenu:
+    23:24:public void setId(int)
+    31:32:public void setResId(int)
+    39:40:public void setTitle(java.lang.String)
+com.seeapenny.client.adapter.ExpandableCategoryListAdapter
+com.seeapenny.client.adapter.ExpandableCategoryListAdapter$1
+com.seeapenny.client.adapter.ExpandableCategoryListAdapter$2
+com.seeapenny.client.adapter.ExpandableCategoryListAdapter$ViewHolderChild
+com.seeapenny.client.adapter.ExpandableShopListAdapter$ViewHolderChild:
+    android.view.View separatorTop
+    android.view.View separatorBottom
+com.seeapenny.client.adapter.Good:
+    private com.seeapenny.client.server.User userOwner
+    private com.seeapenny.client.server.User userAuthor
+    private com.seeapenny.client.server.User userLastEditor
+    private boolean isSelected
+    102:103:public void setSmallUrl(java.lang.String)
+    106:106:public java.lang.String getLargeUrl()
+    110:111:public void setLargeUrl(java.lang.String)
+    188:188:public com.seeapenny.client.server.User getUserOwner()
+    192:193:public void setUserOwner(com.seeapenny.client.server.User)
+    196:196:public com.seeapenny.client.server.User getUserAuthor()
+    208:209:public void setUserAuthor(com.seeapenny.client.server.User)
+    212:212:public com.seeapenny.client.server.User getUserLastEditor()
+    216:217:public void setUserLastEditor(com.seeapenny.client.server.User)
+    221:221:public boolean isSelected()
+    225:226:public void setSelected(boolean)
+    233:234:public void setGoodCategoryImageId(int)
+    344:349:public boolean changeOwnerId(long,java.util.EnumSet)
+com.seeapenny.client.adapter.GoodAdapter:
+    private android.view.GestureDetector gestureDetector
+    private android.view.View$OnTouchListener gestureListener
+    private static final int SWIPE_MIN_DISTANCE
+    228:230:public void clearAllSelected(com.seeapenny.client.adapter.Good)
+com.seeapenny.client.adapter.ListNameAdapter
+com.seeapenny.client.adapter.ListNameAdapter$1
+com.seeapenny.client.adapter.ListNameAdapter$ViewHolder
+com.seeapenny.client.adapter.ShareUser:
+    private long listID
+    private long userID
+    15:15:public long getListID()
+    19:20:public void setListID(long)
+    23:23:public long getUserID()
+    27:28:public void setUserID(long)
+    43:44:public void setSelected(boolean)
+com.seeapenny.client.adapter.ShopList:
+    private java.util.List userShareList
+    private int groupPosition
+    70:70:public int getGroupPosition()
+    74:75:public void setGroupPosition(int)
+    82:83:public void setShared(java.lang.Boolean)
+com.seeapenny.client.bean.Access:
+    17:17:public long getId()
+    25:25:public long getUserFrom()
+    33:33:public long getUserTo()
+    41:41:public com.seeapenny.client.service.AccessType getType()
+    49:49:public int getContentId()
+com.seeapenny.client.bean.GoodCategory:
+    67:67:public com.seeapenny.client.server.User getUser()
+    71:72:public void setUser(com.seeapenny.client.server.User)
+    94:94:public void fromXml(org.w3c.dom.Element)
+    98:98:public boolean isEmbedded()
+com.seeapenny.client.bean.ShareCategory:
+    19:19:public long getId()
+    23:24:public void setId(long)
+    39:39:public void fromXml(org.w3c.dom.Element)
+com.seeapenny.client.dao.AccessDAO:
+    static final java.lang.String ID
+    static final java.lang.String USER_FROM
+    static final java.lang.String USER_TO
+    static final java.lang.String SERVICE_TYPE
+    static final java.lang.String CONTENT_ID
+    79:84:public boolean remove(long,int,long)
+com.seeapenny.client.dao.CategoriesDAO:
+    static final java.lang.String ID
+    static final java.lang.String OWNER_ID
+    static final java.lang.String NAME
+    static final java.lang.String SYNCH_ACTION
+    152:166:public com.seeapenny.client.bean.GoodCategory getCategoryId(long,long)
+com.seeapenny.client.dao.DbHelper:
+    private static long userID
+    private static final java.lang.String CREATE_TABLE
+    private static final java.lang.String CREATE_TABLE_IF_NOT_EXIST
+    29:40:public static void initCreateTablesQuerys()
+com.seeapenny.client.dao.GoodDAO:
+    static final java.lang.String ID
+    static final java.lang.String LIST_ID
+    static final java.lang.String NAME
+    static final java.lang.String MEASURE
+    static final java.lang.String MODIFIED_TIME
+    static final java.lang.String PRICE
+    static final java.lang.String OWNER_ID
+    static final java.lang.String LAST_EDITOR_ID
+    static final java.lang.String STATE
+    static final java.lang.String CREATE_TIME
+    static final java.lang.String QUANTITY
+    static final java.lang.String CATEGORY
+    static final java.lang.String NOTE
+    static final java.lang.String PRIORITY
+    static final java.lang.String IMAGE_ID
+    static final java.lang.String SYNCH_ACTION
+    static final java.lang.String GOOD_SHARE_ID
+    static final java.lang.String LIST_SHARE_ID
+    static final java.lang.String FILED_SHARE
+    static final java.lang.String MODIFIED_TIME_SHARE
+    327:343:public java.util.ArrayList getAllGoodByCategoryId(long,long)
+com.seeapenny.client.dao.HistoryDAO:
+    static final java.lang.String ID
+    static final java.lang.String OWNER_ID
+    static final java.lang.String NAME
+    static final java.lang.String CREATE_TIME
+    static final java.lang.String MODIFIED_TIME
+    static final java.lang.String GOOD_ID
+    static final java.lang.String LIST_ID
+    static final java.lang.String GOOD_NAME
+    static final java.lang.String MEASURE
+    static final java.lang.String GOOD_MODIFIED_TIME
+    static final java.lang.String PRICE
+    static final java.lang.String GOOD_OWNER_ID
+    static final java.lang.String LAST_EDITOR_ID
+    static final java.lang.String STATE
+    static final java.lang.String GOOD_CREATE_TIME
+    static final java.lang.String QUANTITY
+    static final java.lang.String CATEGORY
+    static final java.lang.String NOTE
+    static final java.lang.String PRIORITY
+    static final java.lang.String IMAGE_ID
+    71:84:public com.seeapenny.client.adapter.ShopList read(android.database.Cursor)
+    88:130:public com.seeapenny.client.adapter.Good readGood(android.database.Cursor)
+    220:238:public java.util.ArrayList getAllGoodByListId(long,long)
+    244:259:public java.util.List getAllList()
+com.seeapenny.client.dao.ShopListDAO:
+    static final java.lang.String ID
+    static final java.lang.String OWNER_ID
+    static final java.lang.String NAME
+    static final java.lang.String CREATE_TIME
+    static final java.lang.String MODIFIED_TIME
+    static final java.lang.String SYNCH_ACTION
+    80:91:public boolean updateId(long,long,long)
+com.seeapenny.client.dao.UserDAO:
+    static final java.lang.String USER_ID
+    static final java.lang.String USER_NAME
+    static final java.lang.String SMALL_URL
+    static final java.lang.String LARGE_URL
+    static final java.lang.String ONLINE_STATUS
+    static final java.lang.String LAST_VISIT
+    static final java.lang.String USER_BLOCKED
+    static final java.lang.String USER_DELETED
+    109:126:public java.util.List getShareUsers(long)
+com.seeapenny.client.google.GoogleApp:
+    public static final java.lang.String CALLBACK_URL
+    private static final java.lang.String OAUTH_AUTHORIZE_URL
+com.seeapenny.client.google.GoogleDialog:
+    static final int MARGIN
+    static final int PADDING
+com.seeapenny.client.google.GoogleSession:
+    30:35:public void saveAccessToken(java.lang.String,java.lang.String,java.lang.String)
+    38:43:public java.lang.String[] getAccessToken()
+    47:52:public void resetAccessToken()
+com.seeapenny.client.http.HttpCommand:
+    public static final int CANCELED_CODE
+    public static final int IO_ERROR_CODE
+    232:247:protected final void parseXml(java.lang.String)
+    262:262:public boolean getResponseCode()
+com.seeapenny.client.http.HttpHandler:
+    private static final boolean DEBUG
+    private static final java.lang.String GZIP
+    public static final java.lang.String MIME_JSON
+    public static final java.lang.String MIME_XML
+    public static final java.lang.String MIME_FORM
+    public static final java.lang.String MIME_AMR
+    public static final java.lang.String MIME_AUDIO_3GP
+    public static final java.lang.String MIME_VIDEO_3GP
+    public static final java.lang.String MIME_AUDIO_MP4
+    public static final java.lang.String MIME_VIDEO_MP4
+    127:129:public org.apache.http.HttpResponse executeGet(java.lang.String)
+com.seeapenny.client.http.HttpUploadCommand:
+    private static final java.lang.String CRLF
+    private static final java.lang.String HYPHENS
+    31:32:public void setUploadFieldName(java.lang.String)
+com.seeapenny.client.http.ImageDownloadCommand:
+    private static final int DEFAULT_BUF_SIZE
+com.seeapenny.client.http.SerializableCookie:
+    21:21:public java.lang.String getName()
+    25:25:public java.lang.String getValue()
+    29:29:public int getVersion()
+    33:33:public java.lang.String getDomain()
+    37:37:public java.lang.String getPath()
+com.seeapenny.client.json.JSONUtils:
+    13:15:private JSONUtils()
+    92:98:public static org.json.JSONArray wrappedArray(org.json.JSONObject,java.lang.String,java.lang.String)
+com.seeapenny.client.list.ListHandler:
+    37:37:public void create(android.view.View)
+    65:76:public void takeMoreItems(int,java.util.List)
+    81:88:public void takeMoreItems(int,java.lang.Object)
+    93:99:public void refreshItems(int)
+    102:103:public void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)
+    106:106:public android.widget.ListView getListView()
+    110:110:public java.util.List getAllItems()
+    144:150:public void clear()
+    158:161:public void removeAllItems()
+com.seeapenny.client.list.ReverseListHandler
+com.seeapenny.client.logger.Logger
+com.seeapenny.client.quickaction.ActionItem:
+    private android.graphics.Bitmap thumb
+    private boolean selected
+    50:51:public ActionItem(int,java.lang.String)
+    59:60:public ActionItem(android.graphics.drawable.Drawable)
+    69:70:public ActionItem(int,android.graphics.drawable.Drawable)
+    78:79:public void setTitle(java.lang.String)
+    96:97:public void setIcon(android.graphics.drawable.Drawable)
+    113:114:public void setActionId(int)
+    129:130:public void setSticky(boolean)
+    145:146:public void setSelected(boolean)
+    154:154:public boolean isSelected()
+    163:164:public void setThumb(android.graphics.Bitmap)
+    172:172:public android.graphics.Bitmap getThumb()
+com.seeapenny.client.quickaction.PopupWindows:
+    92:93:public void setBackgroundDrawable(android.graphics.drawable.Drawable)
+    112:115:public void setContentView(int)
+com.seeapenny.client.quickaction.QuickAction:
+    public static final int HORIZONTAL
+    public static final int VERTICAL
+    public static final int ANIM_GROW_FROM_LEFT
+    public static final int ANIM_GROW_FROM_RIGHT
+    public static final int ANIM_GROW_FROM_CENTER
+    public static final int ANIM_REFLECT
+    public static final int ANIM_AUTO
+    67:68:public QuickAction(android.content.Context)
+    145:146:public void setAnimStyle(int)
+com.seeapenny.client.server.GoodResponse:
+    68:69:public void setId(long)
+    76:77:public void setListId(long)
+    84:85:public void setMeasure(int)
+    92:93:public void setModifiedTime(java.util.Date)
+    100:101:public void setImageId(long)
+    104:104:public java.lang.String getSmallUrl()
+    108:109:public void setSmallUrl(java.lang.String)
+    112:112:public java.lang.String getLargeUrl()
+    116:117:public void setLargeUrl(java.lang.String)
+    124:125:public void setPrice(double)
+    132:133:public void setOwnerId(long)
+    140:141:public void setLastEditorId(long)
+    149:150:public void setState(int)
+    157:158:public void setCreateTime(java.util.Date)
+    165:166:public void setQuantity(double)
+    173:174:public void setName(java.lang.String)
+    181:182:public void setNote(java.lang.String)
+    190:191:public void setPriority(boolean)
+    194:194:public com.seeapenny.client.server.User getUserOwner()
+    198:199:public void setUserOwner(com.seeapenny.client.server.User)
+    202:202:public com.seeapenny.client.server.User getUserAuthor()
+    210:211:public void setCategoryId(long)
+    214:215:public void setUserAuthor(com.seeapenny.client.server.User)
+    218:218:public com.seeapenny.client.server.User getUserLastEditor()
+    222:223:public void setUserLastEditor(com.seeapenny.client.server.User)
+    298:298:public void fromXml(org.w3c.dom.Element)
+    302:302:public com.seeapenny.client.bean.GoodCategory getGoodCategory()
+    306:307:public void setGoodCategory(com.seeapenny.client.bean.GoodCategory)
+com.seeapenny.client.server.Image:
+    private transient com.seeapenny.client.CachedBitmapDrawable drawable
+    26:28:public Image(com.seeapenny.client.CachedBitmapDrawable)
+    31:36:public void copyFields(com.seeapenny.client.server.Image)
+    43:44:public void setId(long)
+    47:47:public java.lang.String getLargeUrl()
+    51:52:public void setLargeUrl(java.lang.String)
+    59:60:public void setSmallUrl(java.lang.String)
+    63:63:public int getNumComments()
+    67:67:public com.seeapenny.client.CachedBitmapDrawable getBitmap()
+    71:71:public boolean isNotModerated()
+    89:94:public void fromXml(org.w3c.dom.Element)
+com.seeapenny.client.server.LongPollEvent:
+    public static final java.lang.String TYPE_ADD_GOOD
+    public static final java.lang.String TYPE_DELETE_GOOD
+    public static final java.lang.String TYPE_EDIT_GOOD
+    public static final java.lang.String TYPE_SHARE_LIST
+    public static final java.lang.String TYPE_EDIT_SHARE_LIST
+    public static final java.lang.String TYPE_UN_SHARE_LIST
+    public static final java.lang.String TYPE_ADD_CATEGORY
+    public static final java.lang.String TYPE_EDIT_CATEGORY
+    public static final java.lang.String TYPE_REMOVE_CATEGORY
+    public static final java.lang.String TYPE_USER_GET_ACCESS
+    public static final java.lang.String TYPE_USER_LOSE_ACCESS
+    public static final java.lang.String TYPE_CLIENT_CLOSED
+    public static final java.lang.String TYPE_NO_SESSION
+    public static final java.lang.String TYPE_THROW_USER
+    public static final java.lang.String TYPE_TIME_OUT
+    public static final java.lang.String TYPE_SYSTEM_MESSAGE
+    public static final java.lang.String TYPE_UNDER_MAINTENANCE
+    public static final java.lang.String TYPE_INFO_MESSAGE
+    public static final java.lang.String TYPE_POPUP_DIALOG
+    public static final java.lang.String TYPE_POPUP_NOTIFICATION
+    76:76:public java.util.Date getDate()
+    80:80:public com.seeapenny.client.server.PopupDialogMessage getPopupDialogMessage()
+    84:84:public com.seeapenny.client.server.PopupNotificationMessage getPopupNotificationMessage()
+    195:196:public void setUser(com.seeapenny.client.server.User)
+com.seeapenny.client.server.NotificationsResponse
+com.seeapenny.client.server.PagedResponse
+com.seeapenny.client.server.PopupDialogMessage:
+    private static final java.lang.String FREE_POINTS_SKIN
+    27:27:public java.lang.String getId()
+    31:31:public java.lang.String getMessage()
+    35:35:public java.lang.String getHref()
+    39:39:public java.lang.String getYesText()
+    43:43:public java.lang.String getNoText()
+    47:47:public com.seeapenny.client.server.User getContact()
+    51:51:public boolean isFreePointsSkin()
+    72:84:public void fromXml(org.w3c.dom.Element)
+com.seeapenny.client.server.PopupNotificationManager
+com.seeapenny.client.server.PopupNotificationMessage:
+    22:22:public java.lang.String getId()
+    26:26:public java.lang.String getMessage()
+    30:30:public java.lang.String getHref()
+    34:34:public int getDuration()
+    38:38:public com.seeapenny.client.server.User getContact()
+    62:72:public void fromXml(org.w3c.dom.Element)
+com.seeapenny.client.server.Response:
+    32:32:public org.json.JSONObject getErrorDto()
+    61:61:public java.lang.String getVersion()
+com.seeapenny.client.server.SessionState:
+    103:104:public void setPoints(int)
+    107:107:public int getPoints()
+    111:112:public void setNumUnreadMessages(int)
+    115:115:public int getNumUnreadMessages()
+    119:120:public void setNumUnreadNotifications(int)
+    123:124:public void incrementNumUnreadNotifications()
+    127:127:public int getNumUnreadNotifications()
+    131:132:public void setNumUnreadBuzzEvents(int)
+    135:136:public void incrementNumUnreadBuzzEvents(int)
+    139:139:public int getNumUnreadBuzzEvents()
+    148:148:public long serverTimeNow()
+    161:161:public java.lang.String getSessionId()
+    165:165:public java.lang.String getInviteFriendsSmsText()
+    169:169:public int getInviteFriendsCount()
+    173:173:public int getInviteFriendsPointsPerInstall()
+    177:177:public int getPublisherPointsPerInstall()
+com.seeapenny.client.server.ShopListResponse:
+    38:39:public void setOwnerUser(com.seeapenny.client.server.User)
+    46:47:public void setName(java.lang.String)
+    92:113:public void fromXml(org.w3c.dom.Element)
+    125:126:public void setId(long)
+    135:136:public void setOwnerId(long)
+    139:139:public java.util.List getUserShareList()
+    143:144:public void setUserShareList(java.util.List)
+com.seeapenny.client.server.SynchElement
+com.seeapenny.client.server.SynchrAction:
+    19:19:public int getId()
+com.seeapenny.client.server.User:
+    59:68:public void fromXml(org.w3c.dom.Element)
+com.seeapenny.client.server.requests.LoginRequest:
+    98:98:public java.lang.String getAccessToken()
+com.seeapenny.client.server.requests.SyncGoodCategoryRequest
+com.seeapenny.client.server.requests.SyncGoodCategoryRequest$ShopListRequest
+com.seeapenny.client.server.responses.AddPurchasedResponse:
+    25:25:public boolean isBalanceAvailable()
+    29:29:public int getPoints()
+com.seeapenny.client.server.responses.CategoryResponse
+com.seeapenny.client.server.responses.ExecuteCategoryResult
+com.seeapenny.client.server.responses.ExecuteGoodResult:
+    39:40:public void setGoodId(long)
+    47:48:public void setListId(long)
+    55:56:public void setOwnerId(long)
+    59:59:public boolean isExecuted()
+    63:64:public void setExecuted(boolean)
+    71:72:public void setModifiedTime(java.util.Date)
+com.seeapenny.client.server.responses.ExecuteListResult:
+    36:37:public void setId(long)
+    44:45:public void setOwnerId(long)
+    52:53:public void setExecuted(boolean)
+    60:61:public void setModifiedTime(java.util.Date)
+com.seeapenny.client.server.responses.GoodLastIdResponse$GoodIds:
+    52:53:private void setGoodId(long)
+    60:61:private void setListId(long)
+    68:69:private void setOwnerId(long)
+    86:86:public void fromXml(org.w3c.dom.Element)
+com.seeapenny.client.server.responses.GoodResponseWrapper:
+    32:33:public void setGoodResponse(com.seeapenny.client.server.GoodResponse)
+com.seeapenny.client.server.responses.LastIdResponse:
+    29:30:public void setId(long)
+com.seeapenny.client.server.responses.ListResponseWrapper:
+    34:35:public void setShopListResponse(com.seeapenny.client.server.ShopListResponse)
+com.seeapenny.client.server.responses.RecoveryGoodCategoryResponse
+com.seeapenny.client.server.responses.RecoveryGoodResponse:
+    40:41:public void setGoodResponseList(java.util.List)
+com.seeapenny.client.server.responses.RecoveryShopListResponse:
+    41:42:public void setShopListResponses(java.util.List)
+com.seeapenny.client.server.responses.RemoveListResponse
+com.seeapenny.client.server.responses.ShareResponse:
+    45:45:public java.util.List getShareCategoryList()
+com.seeapenny.client.server.responses.SharedListEvent
+com.seeapenny.client.server.responses.SynchCategoryActionResponse
+com.seeapenny.client.server.responses.SynchGoodActionResponse:
+    33:34:public void setSynchrAction(com.seeapenny.client.server.SynchrAction)
+    37:37:public long getListId()
+    41:42:public void setListId(long)
+    49:50:public void setGoodId(long)
+    53:53:public long getOwnerId()
+    57:58:public void setOwnerId(long)
+com.seeapenny.client.server.responses.SynchShopListActionResponse:
+    32:33:public void setSynchrAction(com.seeapenny.client.server.SynchrAction)
+    40:41:public void setListID(long)
+    48:49:public void setOwnerID(long)
+com.seeapenny.client.server.responses.SynchronizedGoodCategoryResponse
+com.seeapenny.client.server.responses.SynchronizedShopListResponse:
+    35:36:public void setShopListResponse(com.seeapenny.client.server.ShopListResponse)
+com.seeapenny.client.service.AccessService:
+    28:29:public void removeAccess(long,com.seeapenny.client.service.AccessType,long)
+com.seeapenny.client.service.CategoryService:
+    101:101:public java.util.List getOwnListCategory()
+    114:114:public long getLastCategoryID()
+    118:119:public void resetLastId(long)
+    171:175:public boolean insert(com.seeapenny.client.bean.GoodCategory)
+    186:194:public void insertRecovery(com.seeapenny.client.bean.GoodCategory)
+com.seeapenny.client.service.GoodFilter
+com.seeapenny.client.service.GoodService:
+    105:105:private java.lang.String buildKey(long,long)
+    191:191:public java.util.List getAllGoodByCategoryId(long,long)
+com.seeapenny.client.service.Services:
+    12:12:public Services()
+    54:55:public static void setUserService(com.seeapenny.client.service.UserService)
+    73:74:public static void setCategoryService(com.seeapenny.client.service.CategoryService)
+com.seeapenny.client.service.ShopListFilter
+com.seeapenny.client.service.ShopListService:
+    203:215:public boolean updateId(long,long,long)
+    258:258:public void truncate()
+com.seeapenny.client.service.UserService:
+    33:33:public java.util.List getShareUsers(long)
+com.seeapenny.client.sound.MediaPlayerSoundPool:
+    38:45:public synchronized void stop()
+com.seeapenny.client.sound.PlayUnit
+com.seeapenny.client.sound.Sound
+com.seeapenny.client.sound.SoundPlayer:
+    public abstract void ambience(int,float)
+    public abstract void stop()
+    public abstract void setVolume(float)
+    public abstract float getVolume()
+com.seeapenny.client.sound.SoundPlayerFactory:
+    5:5:public SoundPlayerFactory()
+com.seeapenny.client.sound.SoundPlayerMediaPlayer:
+    private android.media.MediaPlayer mediaPlayerAmbience
+    60:75:public void ambience(int,float)
+    79:99:public synchronized void stop()
+    103:108:public void setVolume(float)
+    112:112:public float getVolume()
+com.seeapenny.client.sound.SoundPlayerSoundPool:
+    private android.media.MediaPlayer mediaPlayerAmbience
+    97:112:public void ambience(int,float)
+    116:137:public synchronized void stop()
+    141:146:public void setVolume(float)
+    150:150:public float getVolume()
+com.seeapenny.client.util.ExtrasConst
+com.seeapenny.client.util.Field
+com.seeapenny.client.util.FieldGood:
+    18:18:public int getId()
+    22:27:public static com.seeapenny.client.util.FieldGood getDbValue(int)
+com.seeapenny.client.util.SUtil:
+    30:30:public static java.util.Random getRandom()
+    34:34:public static java.util.TimeZone getTimeZone()
+    38:39:public static void setTimeZone(java.util.TimeZone)
+    42:43:public static boolean isLeapYear(int)
+    47:50:public static int trimstr2int(java.lang.String,int)
+    54:59:public static int str2int(java.lang.String,int)
+    63:68:public static long str2long(java.lang.String,long)
+    72:77:public static double str2double(java.lang.String,double)
+    81:81:public static java.util.Calendar createDefaultCalendar()
+    85:85:public static int dayDiff(java.util.Date,java.util.Date)
+    89:107:public static int dayDiff(java.util.Date,long)
+    112:112:public static java.lang.String floatToString2(float)
+    116:122:public static java.lang.String replaceHTMLtext(java.lang.String)
+    126:145:public static java.lang.String replaceAll(java.lang.String,java.lang.String,java.lang.String)
+    149:159:public static java.lang.StringBuilder replaceAll(java.lang.StringBuilder,java.lang.String,java.lang.String)
+    163:172:public static java.lang.String removeLineBreaks(java.lang.String)
+    178:182:public static java.util.Date previousDate(int)
+    198:198:public static long diffNowSince20130101()
+    202:207:public static long diffSince20130101(java.util.Date)
+    211:215:public static java.util.Date getDate(long)
+    219:219:public static java.util.Date now()
+    223:229:public static boolean isTotay(java.util.Calendar,java.util.Date)
+    233:240:public static boolean isYesterday(java.util.Calendar,java.util.Date)
+    244:248:public static int dateToInt(java.util.Calendar,java.util.Date)
+    252:252:private static java.lang.String digit2(long)
+    256:264:public static java.lang.String toTime(long)
+    277:286:public static java.util.List getSafeSubList(java.util.List,int,int)
+    297:297:public static java.util.List getSafePage(java.util.List,int,int)
+    321:330:public static boolean isBirthday(java.util.Calendar,java.util.Date,int)
+    334:343:public static int getAge(java.util.Date)
+    360:365:public static int compareString(java.lang.String,java.lang.String)
+    370:378:public static java.lang.String md5(byte[])
+    383:391:public static java.util.Date validateDate(java.util.Date,int,int)
+    395:395:public static int getPageCount(int,int)
+    406:406:public static int convertMilesToMeters(int)
+    410:410:public static boolean isValidCoordinates(double,double)
+    416:421:public static double getDistance(double,double,double,double)
+    425:440:public static void saveFile(java.lang.String,java.lang.String,byte[])
+    450:459:public static java.lang.String toReversedHex(long)
+    463:477:public static long parseReversedHex(java.lang.String)
+    482:493:public static java.lang.String readFile(java.lang.String)
+    498:506:public static byte[] serializeObject(java.lang.Object)
+    512:516:public static java.lang.Object deserializeObject(byte[])
+    521:524:public static double score(int,int)
+com.seeapenny.client.vkontakte.VkApp:
+    public static final java.lang.String CALLBACK_URL
+    private static final java.lang.String OAUTH_AUTHORIZE_URL
+com.seeapenny.client.vkontakte.VkDialog:
+    static final int MARGIN
+    static final int PADDING
+com.seeapenny.client.vkontakte.VkSession:
+    30:35:public void saveAccessToken(java.lang.String,java.lang.String,java.lang.String)
+    38:43:public java.lang.String[] getAccessToken()
+    47:52:public void resetAccessToken()
+com.seeapenny.client.widget.ClickableToast
+com.seeapenny.client.widget.ClickableToast$1
+com.seeapenny.client.widget.ClickableToast$2
+com.seeapenny.client.widget.HorizontalVIew
+com.seeapenny.client.widget.OutlineTextView:
+    127:128:public void setStroke(float,int)
+    141:142:public void clearInnerShadows()
+    145:146:public void clearOuterShadows()
+    153:153:public android.graphics.drawable.Drawable getForeground()
+com.seeapenny.client.xml.XMLUtils:
+    12:14:private XMLUtils()
+    52:57:public static long elementLong(org.w3c.dom.Element,java.lang.String)
+    61:66:public static int attributeInt(org.w3c.dom.Element,java.lang.String)
+    70:75:public static long attributeLong(org.w3c.dom.Element,java.lang.String)
+    79:84:public static double attributeDouble(org.w3c.dom.Element,java.lang.String)
+    88:93:public static boolean attributeBoolean(org.w3c.dom.Element,java.lang.String)
+    97:106:public static java.util.Date attributeDate(org.w3c.dom.Element,java.lang.String,java.text.DateFormat)
+    110:114:public static void fillXMLable(org.w3c.dom.Element,java.lang.String,com.seeapenny.client.xml.XMLable)
+com.seeapenny.client.xml.XMLable
+com.seppius.i18n.plurals.PluralResources:
+    27:28:public void setTreatZero(boolean)
+com.seppius.i18n.plurals.PluralRules:
+    static final int QUANTITY_OTHER
+    static final int QUANTITY_ZERO
+    static final int QUANTITY_ONE
+    static final int QUANTITY_TWO
+    static final int QUANTITY_FEW
+    static final int QUANTITY_MANY
+    static final int ID_OTHER
+    static final int ID_ZERO
+    43:43:final int attrForNumber(int)
+    111:112:public static void addRules(java.lang.String,com.seppius.i18n.plurals.PluralRules)
+org.apache.commons.logging.Log
+org.apache.commons.logging.LogConfigurationException
+org.apache.commons.logging.LogFactory
+org.apache.commons.logging.LogFactory$1
+org.apache.commons.logging.LogFactory$2
+org.apache.commons.logging.LogFactory$3
+org.apache.commons.logging.LogFactory$4
+org.apache.commons.logging.LogFactory$5
+org.apache.commons.logging.LogSource
+org.apache.commons.logging.impl.AvalonLogger
+org.apache.commons.logging.impl.Jdk13LumberjackLogger
+org.apache.commons.logging.impl.Jdk14Logger
+org.apache.commons.logging.impl.Log4JLogger
+org.apache.commons.logging.impl.LogFactoryImpl
+org.apache.commons.logging.impl.LogKitLogger
+org.apache.commons.logging.impl.NoOpLog
+org.apache.commons.logging.impl.ServletContextCleaner
+org.apache.commons.logging.impl.SimpleLog
+org.apache.commons.logging.impl.SimpleLog$1
+org.apache.commons.logging.impl.WeakHashtable
+org.apache.commons.logging.impl.WeakHashtable$1
+org.apache.commons.logging.impl.WeakHashtable$2
+org.apache.commons.logging.impl.WeakHashtable$Entry
+org.apache.commons.logging.impl.WeakHashtable$Referenced
+org.apache.commons.logging.impl.WeakHashtable$WeakKey
+org.apache.http.entity.mime.FormBodyPart
+org.apache.http.entity.mime.Header
+org.apache.http.entity.mime.HttpMultipart
+org.apache.http.entity.mime.HttpMultipart$1
+org.apache.http.entity.mime.HttpMultipartMode
+org.apache.http.entity.mime.MIME
+org.apache.http.entity.mime.MinimalField
+org.apache.http.entity.mime.MultipartEntity
+org.apache.http.entity.mime.content.AbstractContentBody
+org.apache.http.entity.mime.content.ByteArrayBody
+org.apache.http.entity.mime.content.ContentBody
+org.apache.http.entity.mime.content.ContentDescriptor
+org.apache.http.entity.mime.content.FileBody
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody

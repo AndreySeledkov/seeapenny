@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/back"
+              android:layout_height="fill_parent">
+
+    <ScrollView android:layout_width="fill_parent"
+                android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+                android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+                android:layout_height="fill_parent">
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:orientation="vertical"
+                      android:padding="10dp"
+                      android:layout_height="fill_parent">
+
+            <TextView android:layout_width="wrap_content"
+                      android:text="@string/settings"
+                      style="@style/settings_header_text"
+                      android:layout_height="wrap_content"/>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:id="@+id/layout_sound"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content"
+                          android:text="@string/sound"
+                          android:layout_alignParentLeft="true"
+                          style="@style/settings_text"
+                          android:layout_height="wrap_content"/>
+
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:id="@+id/checkbox_sound"
+                          android:button="@drawable/checkbox_selector"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:id="@+id/layout_vibrate"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content"
+                          android:text="@string/vibration"
+                          android:layout_alignParentLeft="true"
+                          style="@style/settings_text"
+                          android:layout_height="wrap_content"/>
+
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:id="@+id/checkbox_vibration"
+                          android:button="@drawable/checkbox_selector"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:clickable="true"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_rotation"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_alignParentLeft="true"
+                          android:text="@string/autoRotation"
+                          style="@style/settings_text"
+                          android:layout_height="wrap_content"/>
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:id="@+id/checkbox_rotation"
+                          android:button="@drawable/checkbox_selector"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:clickable="true"
+                            android:id="@+id/layout_speech_recognition"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:text="@string/voiceRecognition"
+                          style="@style/settings_text"
+                          android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"/>
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:button="@drawable/checkbox_selector"
+                          android:id="@+id/checkbox_recognition"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_screen_lock"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:text="@string/screenSum"
+                          style="@style/settings_text"
+                          android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"/>
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:button="@drawable/checkbox_selector"
+                          android:id="@+id/checkbox_lock"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_language"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="fill_parent"
+                          android:text="@string/language"
+                          android:layout_alignParentLeft="true"
+                          style="@style/settings_text"
+                          android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="fill_parent"
+                      android:text="@string/settingGood"
+                      style="@style/settings_header_text"
+                      android:layout_height="wrap_content"/>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_currency"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="fill_parent"
+                          android:text="@string/currency"
+                          android:layout_alignParentLeft="true"
+                          style="@style/settings_text"
+                          android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_duplicate_good"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:text="@string/duplicateLock"
+                          style="@style/settings_text"
+                          android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"/>
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:button="@drawable/checkbox_selector"
+                          android:id="@+id/checkbox_duplicate_lock"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <!--<RelativeLayout android:layout_width="fill_parent"-->
+                            <!--android:orientation="vertical"-->
+                            <!--android:paddingLeft="5dp"-->
+                            <!--android:paddingRight="5dp"-->
+                            <!--android:paddingTop="10dp"-->
+                            <!--android:clickable="true"-->
+                            <!--android:paddingBottom="10dp"-->
+                            <!--android:id="@+id/layout_categories"-->
+                            <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView android:layout_width="fill_parent"-->
+                          <!--android:text="@string/goodCategories"-->
+                          <!--android:layout_alignParentLeft="true"-->
+                          <!--style="@style/settings_text"-->
+                          <!--android:layout_height="wrap_content"/>-->
+
+            <!--</RelativeLayout>-->
+
+
+            <TextView android:layout_width="fill_parent"
+                      android:text="@string/showInProduct"
+                      style="@style/settings_header_text"
+                      android:layout_height="wrap_content"/>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:clickable="true"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_image"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_alignParentLeft="true"
+                          android:text="@string/showInProductImage"
+                          style="@style/settings_text"
+                          android:layout_height="wrap_content"/>
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:id="@+id/checkbox_image"
+                          android:button="@drawable/checkbox_selector"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+            </RelativeLayout>
+
+            <View android:layout_height="2px"
+                  android:background="@color/grey"
+                  android:layout_width="fill_parent"/>
+
+
+            <RelativeLayout android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:clickable="true"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:id="@+id/layout_note"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content"
+                          android:text="@string/showInProductNote"
+                          style="@style/settings_text"
+                          android:layout_alignParentLeft="true"
+                          android:layout_height="wrap_content"/>
+
+                <CheckBox android:layout_height="wrap_content"
+                          android:id="@+id/checkbox_note"
+                          android:button="@drawable/checkbox_selector"
+                          android:layout_alignParentRight="true"
+                          android:layout_width="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

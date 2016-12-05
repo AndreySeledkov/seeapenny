@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:padding="5dp"
+             android:background="@drawable/back"
+             android:orientation="vertical"
+             android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="5dp"
+                  android:layout_width="fill_parent">
+
+        <TextView android:layout_height="wrap_content"
+                  style="@style/text_support"
+                  android:text="@string/text_support"
+                  android:paddingBottom="5dp"
+                  android:layout_width="fill_parent"/>
+
+        <EditText android:layout_width="fill_parent"
+                  android:hint="@string/helpEditHint"
+                  android:id="@+id/messageComplain"
+                  android:maxLines="5"
+                  android:minLines="5"
+                  android:maxLength="1000"
+                  android:gravity="top"
+                  style="@style/edit_text"
+                  android:singleLine="false"
+                  android:layout_height="wrap_content"/>
+
+
+        <Button android:layout_width="wrap_content"
+                android:id="@+id/next"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"
+                style="@style/button"
+                android:text="@string/next"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

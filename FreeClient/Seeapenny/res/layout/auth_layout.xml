@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:id="@+id/authLayout"
+              android:padding="20dp"
+              android:visibility="gone"
+              android:orientation="vertical"
+              android:layout_height="fill_parent">
+
+    <EditText android:id="@+id/edit_text_login"
+              android:maxLength="50"
+              style="@style/edit_text"
+              android:inputType="textEmailAddress"
+              android:hint="@string/edit_text_email"/>
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="5dp"/>
+
+    <EditText android:id="@+id/edit_text_password"
+              android:maxLength="50"
+              style="@style/edit_text"
+              android:hint="@string/edit_text_password"
+              android:password="true"/>
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="15dp"/>
+
+    <Button android:layout_width="fill_parent"
+            android:id="@+id/auth"
+            style="@style/button"
+            android:text="@string/authEnter"
+            android:layout_height="wrap_content"/>
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="10dp"/>
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  style="@style/text_login_link"
+                  android:id="@+id/forgotPassword"
+                  android:text="@string/forgotPassword"
+                  android:layout_height="wrap_content"/>
+
+        <!--<TextView android:layout_width="wrap_content"-->
+                  <!--android:layout_alignParentRight="true"-->
+                  <!--style="@style/text_login_link"-->
+                  <!--android:id="@+id/registration"-->
+                  <!--android:text="@string/registration"-->
+                  <!--android:layout_height="wrap_content"/>-->
+    </RelativeLayout>
+
+    <!--<View android:layout_width="fill_parent"-->
+          <!--android:layout_height="10dp"/>-->
+
+    <!--<View android:layout_width="fill_parent"-->
+          <!--android:background="#eb521f"-->
+          <!--android:layout_height="3dp"/>-->
+
+    <!--<LinearLayout android:layout_width="fill_parent"-->
+                  <!--android:gravity="center_horizontal"-->
+                  <!--android:paddingTop="10dp"-->
+                  <!--android:weightSum="4"-->
+                  <!--android:paddingBottom="40dp"-->
+                  <!--android:orientation="horizontal"-->
+                  <!--android:layout_height="wrap_content">-->
+        <!--<ImageView android:layout_width="0dp"-->
+                   <!--android:layout_weight="1"-->
+                   <!--android:id="@+id/authFacebook"-->
+                   <!--android:src="@drawable/fb_selector"-->
+                   <!--android:layout_height="50dp"/>-->
+
+        <!--<ImageView android:layout_width="0dp"-->
+                   <!--android:layout_weight="1"-->
+                   <!--android:id="@+id/authVk"-->
+                   <!--android:src="@drawable/vk_selector"-->
+                   <!--android:layout_height="50dp"/>-->
+
+        <!--<ImageView android:layout_width="0dp"-->
+                   <!--android:layout_weight="1"-->
+                   <!--android:id="@+id/authGmail"-->
+                   <!--android:src="@drawable/gmail_selector"-->
+                   <!--android:layout_height="50dp"/>-->
+
+        <!--<ImageView android:layout_width="0dp"-->
+                   <!--android:layout_weight="1"-->
+                   <!--android:id="@+id/authTwit"-->
+                   <!--android:src="@drawable/twitter_selector"-->
+                   <!--android:layout_height="50dp"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<Button android:layout_width="fill_parent"-->
+            <!--android:id="@+id/authWithoutSession"-->
+            <!--style="@style/button"-->
+            <!--android:text="@string/authWithoutSession"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+</LinearLayout>

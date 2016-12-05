@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item   android:id="@+id/add_item"
+            android:showAsAction="always|collapseActionView"
+            android:icon="@drawable/add_good"
+            android:title="@string/add"
+            android:actionLayout="@layout/collapsible_edittext_good"
+            />
+
+    <item
+            android:id="@+id/menu"
+            android:showAsAction="always"
+            android:icon="@drawable/menu"
+            android:title="@string/menu">
+        <menu>
+            <item android:id="@+id/shareList"
+                  android:icon="@drawable/action_item_open_access"
+                  android:title="@string/share_list"/>
+            <item android:id="@+id/sort"
+                  android:icon="@drawable/action_item_sort"
+                  android:title="@string/sort"/>
+            <item android:id="@+id/changeStateAll"
+                  android:icon="@drawable/action_item_exclude_all"
+                  android:title="@string/excluded_all"/>
+            <item android:id="@+id/deleteAllList"
+                  android:icon="@drawable/delete_all"
+                  android:title="@string/remove_all"/>
+            <item android:id="@+id/settings"
+                  android:icon="@drawable/left_menu_preferences"
+                  android:title="@string/settings"/>
+        </menu>
+    </item>
+</menu>

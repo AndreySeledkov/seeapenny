@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:gravity="center_vertical"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:gravity="center_vertical"
+                  android:layout_alignParentRight="true"
+                  android:clickable="true"
+                  android:id="@+id/redirect_to_goods"
+                  android:focusable="true"
+                  android:layout_centerInParent="true"
+                  android:focusableInTouchMode="true"
+                  android:paddingRight="15dp"
+                  android:layout_height="match_parent">
+
+        <ImageView android:layout_width="2dp"
+                   android:layout_gravity="fill_vertical"
+                   android:id="@+id/separator"
+                   android:layout_marginRight="15dp"
+                   android:background="#acacac"
+                   android:layout_height="match_parent"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="vertical"
+                      android:id="@+id/go_to_goods"
+                      android:clickable="true"
+                      android:gravity="center"
+                      android:layout_height="match_parent">
+            <ImageView
+                    android:layout_gravity="center_vertical|right"
+                    android:adjustViewBounds="true"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/action_to_goods"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+
+            <TextView android:layout_height="wrap_content"
+                      android:id="@+id/count"
+                      style="@style/text_size_all_good"
+                      android:layout_width="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:id="@+id/listContent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@id/redirect_to_goods"
+                    android:orientation="horizontal"
+                    android:paddingRight="5dp"
+                    android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/actual"
+                   android:adjustViewBounds="true"
+                   android:layout_centerVertical="true"
+                   android:clickable="true"
+                   android:layout_height="wrap_content"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:paddingLeft="5dp"
+                      android:layout_toRightOf="@id/actual"
+                      android:layout_width="wrap_content">
+            <TextView android:layout_height="wrap_content"
+                      android:id="@+id/listTitle"
+                      android:textStyle="bold"
+                      android:singleLine="true"
+                      android:ellipsize="end"
+                      android:marqueeRepeatLimit="marquee_forever"
+                      android:maxLines="1"
+                      style="@style/text_shop_list_group"
+                      android:layout_width="wrap_content"/>
+
+            <LinearLayout android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:clickable="true"
+                          android:id="@+id/last_edit_layout"
+                          android:layout_width="wrap_content">
+
+                <ImageView android:layout_height="wrap_content"
+                           android:id="@+id/last_edit_image"
+                           android:src="@drawable/list_edit_selector"
+                           android:duplicateParentState="true"
+                           android:layout_width="wrap_content"/>
+
+                <TextView android:layout_height="wrap_content"
+                          android:paddingLeft="2dp"
+                          style="@style/modified_time"
+                          android:id="@+id/listTime"
+                          android:layout_width="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentBottom="true"
+                      android:gravity="center_vertical"
+                      android:id="@+id/list_share_layout"
+                      android:orientation="horizontal"
+                      android:visibility="gone"
+                      android:clickable="true"
+                      android:layout_width="wrap_content">
+
+            <ImageView android:layout_height="wrap_content"
+                       android:duplicateParentState="true"
+                       android:id="@+id/list_share_image"
+                       android:src="@drawable/list_share_selector"
+                       android:layout_width="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/text_share"
+                      android:paddingLeft="2dp"
+                      style="@style/shop_list_group_item_share"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

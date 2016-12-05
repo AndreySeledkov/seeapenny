@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="horizontal"
+              android:paddingRight="10dp"
+              android:paddingTop="1dp"
+              android:paddingBottom="1dp"
+              android:background="@drawable/item_background"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:id="@+id/main_view"
+                        android:layout_height="wrap_content">
+
+
+            <FrameLayout android:layout_width="wrap_content"
+                         android:id="@+id/good_image_view"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/good_image"
+                           android:src="@drawable/default_good_photo"/>
+
+                <ProgressBar android:id="@+id/wait" style="@style/indeterminate"
+                             android:visibility="gone"
+                             android:layout_gravity="center"/>
+
+            </FrameLayout>
+
+
+
+            <LinearLayout android:layout_height="wrap_content"
+                          android:layout_toRightOf="@id/good_image_view"
+                          android:paddingLeft="10dp"
+                          android:id="@+id/view_good"
+                          android:paddingRight="5dp"
+                          android:layout_toLeftOf="@+id/view_mark_price"
+                          android:orientation="vertical"
+                          android:layout_width="match_parent">
+
+                <RelativeLayout android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_width="match_parent">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:id="@+id/good_name"
+                              android:singleLine="true"
+                              android:ellipsize="end"
+                              android:maxLines="1"
+                              android:layout_alignParentLeft="true"
+                              android:layout_toLeftOf="@+id/good_quantity"
+                              style="@style/good_item_title"
+                              android:layout_height="wrap_content"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:id="@+id/good_quantity"
+                              android:layout_marginTop="2dp"
+                              android:layout_alignParentRight="true"
+                              android:maxLines="1"
+                              style="@style/good_item_quantity"
+                              android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+                <TextView android:layout_width="wrap_content"
+                          android:visibility="gone"
+                          android:paddingLeft="10dp"
+                          android:id="@+id/good_note"
+                          style="@style/good_item_note"
+                          android:layout_height="wrap_content"/>
+
+                <LinearLayout android:layout_height="wrap_content"
+                              android:id="@+id/category"
+                              android:gravity="center"
+                              android:paddingLeft="10dp"
+                              android:paddingBottom="5dp"
+                              android:layout_width="wrap_content">
+                    <ImageView android:layout_width="wrap_content"
+                               android:id="@+id/category_icon"
+                               android:paddingRight="2dp"
+                               android:layout_height="wrap_content"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:id="@+id/good_category"
+                              style="@style/good_item_category"
+                              android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_alignParentRight="true"
+                          android:orientation="vertical"
+                          android:id="@+id/view_mark_price"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:id="@+id/good_price"
+                          style="@style/good_item_price"
+                          android:layout_height="wrap_content"/>
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_gravity="right"
+                           android:id="@+id/mark"
+                           android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentTop="true"
+                       android:id="@+id/important"
+                       android:src="@drawable/good_important_selected"
+                       android:visibility="gone"
+                       android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

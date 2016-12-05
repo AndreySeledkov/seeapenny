@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Seeapenny.iml" filepath="$PROJECT_DIR$/Seeapenny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Sherlock/Sherlock.iml" filepath="$PROJECT_DIR$/../Sherlock/Sherlock.iml" />
+    </modules>
+  </component>
+</project>
+

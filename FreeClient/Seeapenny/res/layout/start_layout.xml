@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:gravity="center_horizontal"
+             android:background="@drawable/back"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <!--android:background="@drawable/backrepeat"-->
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:background="@drawable/shadow"
+            android:layout_height="wrap_content"/>
+
+    <include layout="@layout/first_screen"/>
+
+    <include layout="@layout/auth_layout"/>
+
+    <include layout="@layout/registration_layout"/>
+
+    <!--<include layout="@layout/forgot_password"/>-->
+
+</FrameLayout>

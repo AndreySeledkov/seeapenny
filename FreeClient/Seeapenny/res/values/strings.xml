@@ -1,0 +1,596 @@
+<resources>
+    <string name="app_name">See a penny</string>
+
+    <string name="edit_text_email">Адрес эл. почты</string>
+    <string name="edit_text_name">Имя</string>
+    <string name="edit_text_surname">Фамилия</string>
+    <string name="edit_text_password">Пароль</string>
+    <string name="edit_text_phone">Телефон</string>
+
+
+    <string name="request_edit_text_mail">Адрес эл. почты</string>
+    <string name="request_text_email">Восстановление текущего пароля</string>
+
+    <string name="enter">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="forgotPassword">Забыли пароль?</string>
+    <string name="login">Ваш логин</string>
+    <string name="email">Ваша почта</string>
+    <string name="password">Ваш пароль</string>
+    <string name="name">Ваше имя</string>
+
+
+    <string name="profileName">Имя</string>
+    <string name="profilePassword">Пароль</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">Ок</string>
+    <string name="closeApplication">Вы действительно хотите выйти?</string>
+
+    <string name="reEnterToChangeLanguage">Перезайдите в приложение для изменение языка интерфейса</string>
+
+    <string name="menu_item_1">Дом</string>
+    <string name="menu_item_2">Магазин</string>
+    <string name="menu_item_3">Список</string>
+    <string name="menu_item_4">Профиль</string>
+
+    <string name="add_shop">Добавить магазин</string>
+    <string name="please_wait">Идет загрузка</string>
+
+    <string name="no_shops">Магазинов нет</string>
+    <string name="no_reviews">Отзывов нет</string>
+
+    <string name="no_internet_title">Интернет соединение</string>
+    <string name="no_internet">Интернет соединение отсутствует. Перейти в настройки?</string>
+
+    <string name="under_maintenance">Извините, Economy сейчас недоступен.\nПожалуйста, попробуйте подсоединиться через 5
+        минут.
+    </string>
+    <string name="reconnect">Переподсоединиться</string>
+
+    <string name="cancel">Отмена</string>
+    <string name="title_list">Мои списки</string>
+    <string name="my_category">Мои категории</string>
+    <string name="inner_category">Встроенные категории</string>
+
+    <string name="add">Добавить</string>
+    <string name="add_new_list">Добавить список</string>
+    <string name="add_new_good">Добавить товар</string>
+    <string name="add_currency">Добавить валюту</string>
+    <string name="add_category">Добавить категорию</string>
+    <string name="add_measure">Добавить новое измерение</string>
+
+    <string name="measure">Измерение товара</string>
+    <string name="measureSum">Добавление/Удаление измерений товара</string>
+
+    <string name="send_sms">Отправить смс</string>
+    <string name="send_list">Отправить список</string>
+    <string name="synchronizd">Синхронизация</string>
+    <string name="sumSynchronizd">Синхронизация с сервером происходит автоматически</string>
+
+
+    <string name="autoLogin">Автологин</string>
+
+    <string name="authentication">Аутентификация</string>
+    <string name="authenticationSum">Показывать экран Аутентификации</string>
+
+    <string name="noContacts">Список контактов пуст</string>
+
+    <string-array name="listArray">
+        <item>По дате создания</item>
+        <item>По алфавиту</item>
+        <item>По цене</item>
+        <item>Drag and Drop</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>create_time</item>
+        <item>name</item>
+        <item>cost_sum</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="goodArray">
+        <item>По дате создания</item>
+        <item>По категориям</item>
+        <item>По алфавиту</item>
+        <item>По цене</item>
+        <item>Drag and Drop</item>
+    </string-array>
+
+    <string-array name="goodValues">
+        <item>create_time</item>
+        <item>category</item>
+        <item>name</item>
+        <item>price</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+
+    <string name="isRemoveAllList">Вы уверены,что хотите удалить все списки?</string>
+    <string name="isRemoveAllGood">Вы уверены,что хотите удалить все товары?</string>
+    <string name="isRemoveList">Вы уверены,что хотите удалить список %1$s?</string>
+    <string name="isRemoveGood">Вы уверены,что хотите удалить товар %1$s?</string>
+
+    <string name="noList">Списков нет</string>
+    <string name="noGood">Товаров нет</string>
+    <string name="isDeleteList">Вы уверены,что хотите удалить этот список?</string>
+
+    <string name="goodResponse">Товар</string>
+    <string name="settingGood">Настройки товара</string>
+
+    <string name="title">Название</string>
+    <string name="price">Цена</string>
+    <string name="quantity">Кол-во</string>
+    <string name="weight">Вес</string>
+    <string name="chooseCategory">Выбрать категорию</string>
+    <string name="photo">Фото</string>
+    <string name="addPhoto">Добавить фото</string>
+    <string name="save">Сохранить</string>
+
+    <string name="authEnter">Войти</string>
+    <string name="next">Дальше</string>
+
+    <string name="authWith">Войти с помощью</string>
+
+    <string name="authFacebook">Войти через Facebook</string>
+
+    <string name="recoverPassword">Воccтановить пароль</string>
+
+    <string name="authWithoutSession">Использовать в оффлайне</string>
+    <string name="remindPassword">Напомнить пароль</string>
+
+
+    <string name="save">Сохранить</string>
+
+    <integer-array name="idGoods">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string name="chooseCategoryPrompt">Выберите категорию</string>
+
+    <string name="not_email">Неправильный E-mail</string>
+    <string name="check_email_passw">Следуйте инструкциям в e-mail письме, чтобы сменить пароль!</string>
+
+    <string-array name="goodResponses">
+
+    </string-array>
+
+    <string-array name="categories">
+        <item>Алкогольные напитки</item>
+        <item>Бакалея</item>
+        <item>Воды, соки, напитки</item>
+        <item>Все для дома</item>
+        <item>Дрожжи</item>
+        <item>Замороженные продукты</item>
+        <item>Книги, диски</item>
+        <item>Консервированные продукты</item>
+        <item>Кондитерские изделия и десерты</item>
+        <item>Косметика, парфюмерия, бытовая химия</item>
+        <item>Масло растительное</item>
+        <item>Медицинские препараты</item>
+        <item>Молочная продукция</item>
+        <item>Морепродукты и рыба</item>
+        <item>Мясная гастрономия</item>
+        <item>Полуфабрикаты</item>
+        <item>Сыры</item>
+        <item>Соусы</item>
+        <item>Спорт и туризм</item>
+        <item>Сухофрукты</item>
+        <item>Специи, приправы</item>
+        <item>Товары для животных</item>
+        <item>Товары для детей</item>
+        <item>Фрукты, овощи, грибы</item>
+        <item>Хлебобулочные изделия</item>
+        <item>Чай, кофе, какао</item>
+        <item>Чипсы,снеки,орешки,семечки,сухари</item>
+        <item>Электроника</item>
+        <item>Яйцо</item>
+    </string-array>
+
+    <string-array name="measure_array">
+        <item>грамм</item>
+        <item>кг.</item>
+        <item>литр</item>
+        <item>пачка</item>
+        <item>штук</item>
+    </string-array>
+
+
+    <string name="shareByAccount">через See a penny аккаунт</string>
+    <string name="shareByService">др. службы</string>
+
+
+    <plurals name="year_format">
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+        <item quantity="other">%d лет назад</item>
+    </plurals>
+    <plurals name="month_format">
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="few">%d месяца назад</item>
+        <item quantity="other">%d месяцев назад</item>
+    </plurals>
+    <plurals name="week_format">
+        <item quantity="one">%d неделю назад</item>
+        <item quantity="few">%d недели назад</item>
+        <item quantity="other">%d недель назад</item>
+    </plurals>
+    <plurals name="day_format">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="other">%d дней назад</item>
+    </plurals>
+    <plurals name="hour_format">
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="other">%d часов назад</item>
+    </plurals>
+    <plurals name="minute_format">
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="other">%d минут назад</item>
+    </plurals>
+    <string name="second_format">Несколько секунд назад</string>
+
+    <plurals name="day_unit_format">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="other">%d дней</item>
+    </plurals>
+    <plurals name="hour_unit_format">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+    <plurals name="minute_unit_format">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+
+    <string name="listOpen">Открыть</string>
+    <string name="listEdit">Редактировать</string>
+    <string name="listRemove">Удалить</string>
+    <string name="send">Отправить</string>
+    <string name="goodCopy">Копировать</string>
+    <string name="listRemind">Напомнить</string>
+    <string name="listRemindRemove">Удалить напоминание</string>
+
+    <string name="goodBought">Готово</string>
+    <string name="goodBack">Вернуть</string>
+    <string name="goodBackAll">Вернуть все</string>
+    <string name="goodEdit">Редактировать</string>
+    <string name="goodMove">Переместить</string>
+    <string name="goodRemove">Удалить</string>
+    <string name="goodCopy">Копировать</string>
+
+
+    <string name="sumCostDate">Сумма: %1$s %2$s Дата:%3$s</string>
+
+    <string name="listOptions">Окно опций списка</string>
+    <string name="goodOptions">Окно опций товара</string>
+
+    <string name="logout">Выйти</string>
+    <string name="settings">Настройки</string>
+    <string name="help">Помощь</string>
+    <string name="remove_all">Удалить все</string>
+    <string name="history">История</string>
+    <string name="excluded_all">Вычеркнуть все</string>
+    <string name="share_list">Поделиться списком</string>
+    <string name="share">Поделиться</string>
+    <string name="open_access">Открыть доступ</string>
+
+    <string name="copy_good_header">Копировать товар %1$s в список:</string>
+
+    <string name="move_good_header">Переместить товар %1$s в список:</string>
+
+    <string name="my_profile">Мой профиль</string>
+
+    <string name="quantityItem">Кол-во: %1$s %2$s \n Цена: %3$s %4$s</string>
+    <string name="textWithoutSession">или \n продолжить в \n \'ограниченом режиме\'</string>
+    <string name="gallery_2_text">Testing</string>
+    <string name="list">Список %1$s</string>
+
+    <string name="sound">Звук</string>
+    <string name="vibration">Вибрация</string>
+    <string name="autoRotation">Автоповорот экрана</string>
+    <string name="voiceRecognition">Распознавание голоса</string>
+    <string name="screen">Экран</string>
+    <string name="screenSum">Спящий режим отключить</string>
+    <string name="duplicateLock">Проверка на дублирование товара</string>
+
+    <string name="sumSound">Включение/Выключения звуковых эффектов</string>
+
+    <string name="sumSound">Включение/Выключения звуковых эффектов</string>
+
+    <string name="currency">Валюта</string>
+
+    <string name="language">Язык интерфейса</string>
+
+
+    <string name="currentCurrency">Текущая валюта %1$s</string>
+
+    <string name="sortGoods">Сортировка товаров</string>
+
+    <string name="sort">Сортировать</string>
+
+
+    <string-array name="sortType">
+        <item>по имени</item>
+        <item>по стоимости</item>
+        <item>по категории</item>
+        <item>по важности</item>
+        <item>по дате</item>
+    </string-array>
+
+    <string name="sort_by_name">по имени</string>
+    <string name="sort_by_price">по стоимости</string>
+    <string name="sort_by_category">по категории</string>
+    <string name="sort_by_priority">по важности</string>
+    <string name="sort_by_date">по дате</string>
+    <string name="sort_asc">По возрастанию</string>
+    <string name="sort_desc">По убыванию</string>
+
+    <string name="sort_bought_goods">Игнорировать сортировку купленным товарам</string>
+
+
+    <string name="showInProduct">Отображать в товаре</string>
+
+    <string name="showInProductQuantity">Количество</string>
+    <string name="showInProductPrice">Цена</string>
+    <string name="showInProductImage">Картинку</string>
+    <string name="showInProductNote">Примечание</string>
+    <string name="hintShowInProductNote">Ваше примечание здесь</string>
+
+    <string name="chooseSort">Выберите сортировку</string>
+
+    <string name="themeChoice">Выбор темы</string>
+
+    <string name="telephone">Номер телефона</string>
+    <string name="telephoneSum">Придоставте свой номер телефона, чтоб была возможность открыть доступ используя адресную
+        книгу
+    </string>
+
+    <!--<string name="share">Share</string>-->
+    <string name="share_subject">See a penny - сервис разумных покупок!</string>
+    <string name="share_text">Seeapenny.net - загружай приложение для андроида!</string>
+    <string name="share_title">Как вы хотите поделиться?</string>
+
+    <string name="share_list_title">Как вы хотите поделиться список?</string>
+
+
+    <string name="share_list_subject">Список товаров</string>
+    <string name="share_list_text">Список товаров %1$s \n</string>
+
+    <string name="camera_not_supported">This device has no camera.</string>
+    <string name="cps_title">Add photo</string>
+
+    <string name="cps_camera">Сделать снимок</string>
+    <string name="cps_gallery">Выбор из Галереи</string>
+    <string name="cps_google">Поиск в Google</string>
+
+    <string name="no_gallery">Sorry! You can\'t choose photo. Gallery not installed on your device.</string>
+
+    <string name="helpEditHint">Опишите Вашу проблему здесь</string>
+
+    <string name="menu">Меню</string>
+
+    <string name="editGood">Редактирование товара</string>
+    <string name="goodCategories">Управление категориями</string>
+    <string name="sumGoodCategories">Добавление/Удаление категорий</string>
+
+    <string name="helpThanks">Благодаря вам, каждый день мы улучшаем наш продукт</string>
+
+    <string name="menuLeftMain">Главная</string>
+    <string name="menuLeftAuth">Войти</string>
+    <string name="menuLeftLogout">Выход</string>
+    <string name="menuLeftProfile">Профиль</string>
+    <string name="menuLeftHelp">Помощь</string>
+    <string name="menuLeftAboutApp">О приложении</string>
+    <string name="menuLeftGuide">Руководство</string>
+
+    <string name="languageChoose">Выбор языка</string>
+    <string name="currencyChoose">Выбор валюты</string>
+
+    <string name="shopLists">Списки покупок</string>
+
+    <!--<string name="language2">Французский</string>-->
+    <!--<string name="language3">Арабский</string>-->
+    <!--<string name="language4">Испанский</string>-->
+    <!--<string name="language5">Португальский</string>-->
+    <!--<string name="language6">Немецкий</string>-->
+    <!--<string name="language7">Итальянский</string>-->
+    <!--<string name="language9">Румынский</string>-->
+    <!--<string name="language10">Нидерландский</string>-->
+    <!--<string name="language11">Греческий</string>-->
+    <!--<string name="language12">Китайский</string>-->
+    <!--<string name="language13">Корейский</string>-->
+    <!--<string name="language14">Турецкий</string>-->
+    <!--<string name="language15">Хорватский</string>-->
+    <!--<string name="language16">Шведский</string>-->
+    <!--<string name="language17">Белорусский</string>-->
+    <!--<string name="language18">Болгарский</string>-->
+    <!--<string name="language19">Датский</string>-->
+    <!--<string name="language20">Ирландский</string>-->
+    <!--<string name="language21">Польский</string>-->
+    <!--<string name="language22">Финский</string>-->
+    <!--<string name="language23">Иврит</string>-->
+    <!--<string name="language24">Хинди</string>-->
+    <!--<string name="language25">Чешский</string>-->
+    <!--<string name="language26">Японский</string>-->
+
+    <string-array name="languages">
+        <item>Английский</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Российской Федерации - RUB - руб.</item>
+        <item>Украины гривна - UAH - грн.</item>
+        <item>Американский доллар - USD - $.</item>
+        <item>Евро - EUR - €.</item>
+        <item>Азербайджан - AZN - ман.</item>
+        <item>Армения - AMD - драм</item>
+        <item>Беларусия - BYR - руб.</item>
+        <item>Казахстан - KZT - тнг</item>
+        <item>Кыргызская Республика - KGS- сом</item>
+        <item>Молдова - MDL - леи</item>
+        <item>Таджикистан - TJS - сом.</item>
+        <item>Туркменистан - TMT - m</item>
+        <item>Узбекистан - UZS - сум</item>
+        <item>Монголия - MNT - Т</item>
+        <item>Грузия- GEL - Lari</item>
+        <item>Литва - LTL - Lt</item>
+        <item>Латвия - LVL - Ls</item>
+        <item>Румыния - RON - лей</item>
+        <item>Болгария - BGN - лев</item>
+
+
+        <!--<item>Российский рубль RUR</item>-->
+        <!--<item>Украинская гривна UAH</item>-->
+        <!--<item>Доллар США USD</item>-->
+        <!--<item>Евро EUR</item>-->
+        <!--<item>Австралийский доллар AUD</item>-->
+        <!--<item>Азербайджанский манат AZN</item>-->
+        <!--<item>Аргентинское песо ARS</item>-->
+        <!--<item>Армянский драм AMD</item>-->
+        <!--<item>Белорусский рубль BYB</item>-->
+        <!--<item>Болгарский лев BGL</item>-->
+        <!--<item>Конвертируемая марка BAM</item>-->
+        <!--<item>Бразильский реал BRR</item>-->
+        <!--<item>Венгерский форинт HUF</item>-->
+        <!--<item>Венесуэльский боливар VEB</item>-->
+        <!--<item>Грузинский лари GEL</item>-->
+        <!--<item>Датская крона DKK</item>-->
+
+        <!--<item>Израильский шекель ILS</item>-->
+        <!--<item>Индийская рупия INR</item>-->
+        <!--<item>Индонезийская рупия IDR</item>-->
+        <!--<item>Ирландский фунт IEP</item>-->
+        <!--<item>Исландская крона ISK</item>-->
+        <!--<item>Канадский доллар CAD</item>-->
+        <!--<item>Китайский юань CNY</item>-->
+        <!--<item>Колумбийское песо COP</item>-->
+        <!--<item>Латвийский лат LVL</item>-->
+        <!--<item>Литовский лит LTL</item>-->
+        <!--<item>Мексиканское песо MXN</item>-->
+        <!--<item>Молдавский лей MDL</item>-->
+        <!--<item>Новозеландский доллар NZD</item>-->
+        <!--<item>Норвежская крона NOK</item>-->
+        <!--<item>Дирхам ОАЭ AED</item>-->
+        <!--<item>Польский злотый PLZ</item>-->
+
+        <!--<item>Румынский лей ROL</item>-->
+        <!--<item>Северокорейская вона KPW</item>-->
+        <!--<item>Динар RSD</item>-->
+        <!--<item>Сингапурский доллар SGD</item>-->
+        <!--<item>Словацкая крона SKK</item>-->
+        <!--<item>Толар SIT</item>-->
+
+        <!--<item>Таиландский бат THB</item>-->
+        <!--<item>Тунисский динар TND</item>-->
+        <!--<item>Туркменский манат TMM</item>-->
+        <!--<item>Турецкая лира TRL</item>-->
+        <!--<item>Узбекский сум UZS</item>-->
+
+        <!--<item>Куна HRK</item>-->
+        <!--<item>Чешская крона CZK</item>-->
+        <!--<item>Швейцарский франк CHF</item>-->
+        <!--<item>Шведская крона SEK</item>-->
+        <!--<item>Эстонская крона EEK</item>-->
+        <!--<item>Японская иена JPY</item>-->
+    </string-array>
+
+    <string name="currentLanguage">Текущий язык %1$s</string>
+
+    <string name="no_internet_warn">You have to connect to Wi-Fi or cellular data network to access See a penny</string>
+
+    <string name="without_category">Без категории</string>
+
+    <drawable name="menu_back_selected">#8c8c8c</drawable>
+    <drawable name="menu_back">#999999</drawable>
+
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="grey">#999999</drawable>
+
+    <drawable name="to_goods_selected">#ff4e00</drawable>
+
+    <string name="current_password">Текущий пароль</string>
+
+
+    <string name="new_password">Новый пароль</string>
+    <string name="change_password">Сменить пароль</string>
+
+    <string name="change_name">Сменить имя</string>
+
+    <string name="notificationTitleShopList">Напоминание от See a penny</string>
+    <string name="notificationTextShopList">Список покупок %1$s</string>
+
+    <string name="change_photo">Изменить снимок</string>
+
+    <string name="important_good">Важный товар</string>
+
+    <string name="goodExist">Товар уже был добавлен</string>
+    <string name="errorMail">Ошибка ввода почты</string>
+
+    <string name="errorName">Имя должно быть от 3-32 символов</string>
+    <string name="errorPassword">Пароль должно быть от 3-16 символов</string>
+
+    <string name="remindAdded">Напоминание добавлено</string>
+    <string name="remindRemoved">Напоминание удалено</string>
+
+    <string name="text_support">Ваши пожелания,предложения,найденные ошибки</string>
+
+    <string name="notification_sync_text">Синхронизация ваших списков</string>
+    <string name="changed_currency">Текущая валюта %1$s</string>
+
+    <string name="hash_secret">Look at me</string>
+
+    <string name="guide_enter">Зайдите в наше руководство</string>
+
+    <string name="shopping_done">Покупки сделаны! \n
+        Добавить в историю покупок
+    </string>
+
+    <string name="removeShopList">Удалять список</string>
+    <string name="new_login_alert">Вы собираетесь войти с использованием другой учетной записи, отличной от ранее
+        использовавшейся. \n Все списки и элементы будут удалены.
+    </string>
+
+    <string name="feedback">Обратная связь</string>
+    <string name="gmail_not_found">Gmail app not found.Please install app.</string>
+
+
+    <string name="not_support_speech_to_text">Your device doesn\'t support Speech to Text.</string>
+
+    <string name="add_share">Пригласить</string>
+
+    <string name="inviteSent">Приглашение отправлено</string>
+
+    <string name="sharesUser">Список %1$s открыт для:</string>
+
+    <string name="billing_not_supported">In-App Purchases are not supported by your system.</string>
+
+    <string name="share_list_no_user">Пользоваьтеля нет в системе,мы послали письмо с приглашением.</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="rate_app">Оставить отзыв</string>
+
+    <string name="user_already_exit">У вас уже есть аккаунт.При регистрации нового пользователя, все данные будут
+        удалены.
+    </string>
+
+    <string name="use_offline">Перейти в оффлайн</string>
+    <string name="totalPrice">Всего: %1$s</string>
+
+    <string name="no_auth">Вы не авторизированы</string>
+
+</resources>

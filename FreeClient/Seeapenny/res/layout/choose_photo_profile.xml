@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/dialog_back"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:padding="5dp"
+                  android:background="@drawable/button_selector"
+                  android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+                  android:id="@+id/camera"
+                  style="@style/choose_photo_text"
+                  android:text="@string/cps_camera"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:padding="5dp"
+                  android:background="@drawable/button_selector"
+                  android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+                  android:id="@+id/gallery"
+                  android:background="@drawable/button_selector"
+                  style="@style/choose_photo_text"
+                  android:text="@string/cps_gallery"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

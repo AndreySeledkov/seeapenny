@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        
+	<ListView android:id="@+id/list" 
+	    style="@style/list"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+	    android:layout_alignParentTop="true" 
+	    android:layout_above="@+id/tabs"/>
+        
+    
+    <!--<LinearLayout android:id="@+id/tabs" -->
+        <!--android:layout_alignParentBottom="true">-->
+	    		<!---->
+	    <!--<Button android:id="@+id/send_btn"-->
+	        <!--style="@style/tab_button"-->
+	        <!--android:drawableTop="@drawable/send_sms_icon"-->
+			<!--android:text="@string/send"/>-->
+	    <!---->
+	    <!--<Button android:id="@+id/select_btn"-->
+	        <!--style="@style/tab_button"-->
+	        <!--android:drawableTop="@drawable/select_all_icon"-->
+			<!--android:text="@string/select_all"/>-->
+	    <!---->
+	    <!--<Button android:id="@+id/unselect_btn"-->
+	        <!--style="@style/tab_button"-->
+	        <!--android:drawableTop="@drawable/unselect_all_icon"-->
+			<!--android:text="@string/unselect_all"/>-->
+	    <!---->
+	<!--</LinearLayout>-->
+
+</RelativeLayout>

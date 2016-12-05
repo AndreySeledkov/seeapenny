@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="713b2e2a-4bab-4cd8-bde2-5310cae91248" name="Default" comment="" />
+    <ignored path="EconomyClient.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/EconomyClient$Distance.ic" NAME="Distance Coverage Results" MODIFIED="1359930064535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.economy.client.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="EconomyClient" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2431">
+              <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCMIntentService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/GCMIntentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2108" max-vertical-offset="2975">
+              <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usage.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proguard_logs/usage.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="21798" max-vertical-offset="32963">
+              <caret line="1286" column="50" selection-start-line="1286" selection-start-column="50" selection-end-line="1286" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeeapennyApp.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SeeapennyApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.591228" vertical-offset="4989" max-vertical-offset="5559">
+              <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+              <folding>
+                <element signature="method#onCreate#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#onTerminate#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getGoodListNotificationBroadcastReceiver#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getAppState#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getPopupNotificationManager#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setSound#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setVibrate#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setCurrencyPosition#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setCurrency#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setRotation#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setIgnoreBoughtGood#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setSortAsc#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setScreen#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setVoiceRecognitionScreen#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getListName#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#putInListName#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="e#13662#13749#0" expanded="false" />
+                <element signature="method#removeInListName#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="e#14007#14094#0" expanded="false" />
+                <element signature="method#setProductNote#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setProductImage#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="e#14802#14837#0" expanded="false" />
+                <element signature="method#saveGoodSort#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveDuplicateGood#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setShownGuideDialog#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setRemoveShoplist#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="e#16226#16228#0" expanded="false" />
+                <element signature="method#saveUid#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveMarketReferrer#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveInstall#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#savePurchase#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveNumGallerySwipeTips#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#uid#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#androidId#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#phoneNumber#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#generateUID#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#imei#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#formatElapsed#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#formatFromCache#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setLastSynchTime#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#setCurrentActivity#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#showSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#removeSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getGoogleAcountEmail#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveObject#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveList#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#save#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="e#24433#24480#0" expanded="false" />
+                <element signature="method#loadList#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#load#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#clearSessionStateDir#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getPermanentDir#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getAudioFile#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getAppLocale#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#formatDatetime#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#saveLocalePosition#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#changeLang#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getStorageDir#0;class#SeeapennyApp#0" expanded="false" />
+                <element signature="method#getDbHelper#0;class#SeeapennyApp#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://D:/Programs/Android/sdk/sources/android-21/android/provider/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="59653" max-vertical-offset="121788">
+              <caret line="3509" column="35" selection-start-line="3509" selection-start-column="35" selection-end-line="3509" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="5117">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeeapennyActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2677" max-vertical-offset="3247">
+              <caret line="217" column="28" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizedGoodResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/server/responses/SynchronizedGoodResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\Seeapenny\Client\trunk\Seeapenny\keystore" />
+    <option name="KEY_ALIAS" value="seeapenny" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/adapter/ShopList.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/dao/ShopListDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/server/SessionState.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/service/ShopListService.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/LoginManager.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/SyncService.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/adapter/ExpandableCategoryShopListAdapter.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/SeeapennyApp.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/ShopListActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/GoodActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/EditGoodActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/SupportActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:android-support-v4)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EconomyClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seeapenny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ExportedApkPath" value="D:\Seeapenny\Client\trunk\Seeapenny\Seeapenny.apk" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="ExportedModule" value="Seeapenny" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="seeapenny" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="AndroidIncludeSystemProguardFile" value="false" />
+    <property name="AndroidProguardConfigPath" value="D:\Seeapenny\Client\trunk\Seeapenny\proguard.cfg" />
+    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seeapenny.client.adapter" />
+      <recent name="com.seeapenny.client.server.responses" />
+      <recent name="com.seeapenny.client" />
+      <recent name="com.seeapenny.client.server.requests" />
+      <recent name="com.seeapenny.client.http" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Seeapenny\Client\trunk\Seeapenny\res\layout" />
+      <recent name="D:\Seeapenny\Client\trunk\Seeapenny\res\drawable-mdpi" />
+      <recent name="D:\Seeapenny\Client\trunk\Seeapenny\res\drawable" />
+      <recent name="D:\Seeapenny\Client\trunk\Seeapenny\src\com\seeapenny\client" />
+      <recent name="D:\Seeapenny\Client\trunk\Seeapenny" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Seeapenny\Client\trunk\Seeapenny\src\com\android\vending" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.Seeapenny">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Seeapenny" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Seeapenny" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.Seeapenny" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Users\Sony\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="713b2e2a-4bab-4cd8-bde2-5310cae91248" name="Default" comment="" />
+      <created>1359072918311</created>
+      <updated>1359072918311</updated>
+      <workItem from="1374089937055" duration="3631000" />
+      <workItem from="1374173375140" duration="10737000" />
+      <workItem from="1374255107074" duration="6420000" />
+      <workItem from="1374264761421" duration="6765000" />
+      <workItem from="1374317658481" duration="37953000" />
+      <workItem from="1374359338644" duration="2042000" />
+      <workItem from="1374400475792" duration="2661000" />
+      <workItem from="1374435614729" duration="10906000" />
+      <workItem from="1374513516622" duration="11862000" />
+      <workItem from="1374525581387" duration="708000" />
+      <workItem from="1374530060409" duration="2151000" />
+      <workItem from="1374564427085" duration="659000" />
+      <workItem from="1374596450433" duration="11043000" />
+      <workItem from="1374610727292" duration="5134000" />
+      <workItem from="1374690982240" duration="9500000" />
+      <workItem from="1374752487703" duration="116000" />
+      <workItem from="1374766356301" duration="11840000" />
+      <workItem from="1374781477685" duration="3387000" />
+      <workItem from="1375036268078" duration="4191000" />
+      <workItem from="1375112933481" duration="9852000" />
+      <workItem from="1375127318647" duration="2241000" />
+      <workItem from="1375208639049" duration="8986000" />
+      <workItem from="1375296823819" duration="7264000" />
+      <workItem from="1375344109642" duration="269000" />
+      <workItem from="1375381516224" duration="9045000" />
+      <workItem from="1375471334848" duration="11357000" />
+      <workItem from="1375521517724" duration="3977000" />
+      <workItem from="1375555727487" duration="221000" />
+      <workItem from="1375556559426" duration="1298000" />
+      <workItem from="1375603335977" duration="618000" />
+      <workItem from="1375610066321" duration="638000" />
+      <workItem from="1375720634824" duration="9196000" />
+      <workItem from="1375733765426" duration="5117000" />
+      <workItem from="1375814234650" duration="13826000" />
+      <workItem from="1375893360403" duration="11109000" />
+      <workItem from="1375908228196" duration="5781000" />
+      <workItem from="1375940923985" duration="1006000" />
+      <workItem from="1375987745287" duration="14391000" />
+      <workItem from="1376044201593" duration="309000" />
+      <workItem from="1376062554459" duration="22672000" />
+      <workItem from="1376128427820" duration="1424000" />
+      <workItem from="1376136746238" duration="2503000" />
+      <workItem from="1376160040975" duration="10433000" />
+      <workItem from="1376212708403" duration="6491000" />
+      <workItem from="1376245863014" duration="280000" />
+      <workItem from="1376322219184" duration="22028000" />
+      <workItem from="1376410496609" duration="18305000" />
+      <workItem from="1376505594172" duration="12978000" />
+      <workItem from="1376591203564" duration="7757000" />
+      <workItem from="1376680024685" duration="5219000" />
+      <workItem from="1376718181916" duration="263000" />
+      <workItem from="1376823088755" duration="5624000" />
+      <workItem from="1376852733710" duration="1761000" />
+      <workItem from="1376929557732" duration="8000" />
+      <workItem from="1376929624901" duration="46000" />
+      <workItem from="1376949166801" duration="80000" />
+      <workItem from="1421330530359" duration="957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="457501000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3090909" sideWeight="0.7504188" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7504188" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13021703" sideWeight="0.7030303" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34170854" sideWeight="0.5037879" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22078907" sideWeight="0.454698" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2030303" sideWeight="0.14405361" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5929648" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" x="32" y="154" width="1320" height="467" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24734446" sideWeight="0.5302013" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39924243" sideWeight="0.66164154" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2602118" sideWeight="0.38898164" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2077052" sideWeight="0.4719697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6912752" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.0" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.45973155" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6103679" sideWeight="0.49621212" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.360134" sideWeight="0.49318182" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.4969651" order="14" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3090909" sideWeight="0.7504188" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34170854" sideWeight="0.5037879" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6912752" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2030303" sideWeight="0.14405361" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045454" sideWeight="0.6381909" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39363486" sideWeight="0.4719697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.0" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7504188" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.45973155" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56281406" sideWeight="0.49621212" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35343385" sideWeight="0.7030303" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22078907" sideWeight="0.454698" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36180905" sideWeight="0.49318182" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3919598" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" x="32" y="154" width="1320" height="467" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24734446" sideWeight="0.5302013" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39924243" sideWeight="0.66164154" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.479798" sideWeight="0.4969651" order="14" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/proguard_logs/usage.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="21798" max-vertical-offset="32963">
+          <caret line="1286" column="50" selection-start-line="1286" selection-start-column="50" selection-end-line="1286" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SeeapennyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="16201">
+          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#onTerminate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getGoodListNotificationBroadcastReceiver#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAppState#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getPopupNotificationManager#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setSound#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setVibrate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrencyPosition#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrency#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setRotation#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setIgnoreBoughtGood#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setSortAsc#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setScreen#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setVoiceRecognitionScreen#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#putInListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#13662#13749#0" expanded="false" />
+            <element signature="method#removeInListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#14007#14094#0" expanded="false" />
+            <element signature="method#setProductNote#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setProductImage#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#14802#14837#0" expanded="false" />
+            <element signature="method#saveGoodSort#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveDuplicateGood#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setShownGuideDialog#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setRemoveShoplist#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#16226#16228#0" expanded="false" />
+            <element signature="method#saveUid#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveMarketReferrer#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveInstall#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#savePurchase#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveNumGallerySwipeTips#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#uid#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#androidId#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#phoneNumber#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#generateUID#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#imei#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatElapsed#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatFromCache#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setLastSynchTime#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrentActivity#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#showSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#removeSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getGoogleAcountEmail#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveObject#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveList#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#save#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#24433#24480#0" expanded="false" />
+            <element signature="method#loadList#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#load#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#clearSessionStateDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getPermanentDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAudioFile#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAppLocale#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatDatetime#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveLocalePosition#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#changeLang#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getStorageDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getDbHelper#0;class#SeeapennyApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Android/sdk/sources/android-21/android/provider/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59653" max-vertical-offset="121788">
+          <caret line="3509" column="35" selection-start-line="3509" selection-start-column="35" selection-end-line="3509" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="5117">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="3247">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/server/responses/SynchronizedGoodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
+          <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/GCMIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2975">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SeeapennyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1724" max-vertical-offset="8041">
+          <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+          <folding>
+            <element signature="method#onCreate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#onTerminate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getGoodListNotificationBroadcastReceiver#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAppState#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getPopupNotificationManager#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setSound#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setVibrate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrencyPosition#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrency#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setRotation#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setIgnoreBoughtGood#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setSortAsc#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setScreen#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setVoiceRecognitionScreen#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#putInListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#13662#13749#0" expanded="false" />
+            <element signature="method#removeInListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#14007#14094#0" expanded="false" />
+            <element signature="method#setProductNote#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setProductImage#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#14802#14837#0" expanded="false" />
+            <element signature="method#saveGoodSort#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveDuplicateGood#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setShownGuideDialog#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setRemoveShoplist#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#16226#16228#0" expanded="false" />
+            <element signature="method#saveUid#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveMarketReferrer#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveInstall#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#savePurchase#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveNumGallerySwipeTips#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#uid#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#androidId#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#phoneNumber#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#generateUID#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#imei#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatElapsed#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatFromCache#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setLastSynchTime#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrentActivity#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#showSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#removeSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getGoogleAcountEmail#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveObject#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveList#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#save#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#24433#24480#0" expanded="false" />
+            <element signature="method#loadList#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#load#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#clearSessionStateDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getPermanentDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAudioFile#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAppLocale#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatDatetime#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveLocalePosition#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#changeLang#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getStorageDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getDbHelper#0;class#SeeapennyApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Android/sdk/sources/android-21/android/provider/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59653" max-vertical-offset="121788">
+          <caret line="3509" column="35" selection-start-line="3509" selection-start-column="35" selection-end-line="3509" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="5117">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="3978">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/server/responses/SynchronizedGoodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/ShopListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23664">
+          <caret line="954" column="41" selection-start-line="954" selection-start-column="41" selection-end-line="954" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/service/ShopListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5083">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/dao/ShopListDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2635" max-vertical-offset="4182">
+          <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="3978">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1861" max-vertical-offset="2431">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/GCMIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="2686">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="5117">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommandListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="10132">
+          <caret line="270" column="83" selection-start-line="270" selection-start-column="83" selection-end-line="270" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/server/responses/SynchronizedGoodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/ShopListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23664">
+          <caret line="954" column="41" selection-start-line="954" selection-start-column="41" selection-end-line="954" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/service/ShopListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="5083">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/dao/ShopListDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4182">
+          <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="3978">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="5117">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommandListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6528" max-vertical-offset="8262">
+          <caret line="494" column="110" selection-start-line="494" selection-start-column="110" selection-end-line="494" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/server/responses/SynchronizedGoodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="3825">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/adapter/ShopList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029668411" vertical-offset="0" max-vertical-offset="0">
+          <caret line="52" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/GoodActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="112" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34729493" vertical-offset="0" max-vertical-offset="0">
+          <caret line="12" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SupportActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5811517" vertical-offset="0" max-vertical-offset="0">
+          <caret line="119" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/EditGoodActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030357143" vertical-offset="0" max-vertical-offset="0">
+          <caret line="62" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="3825">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/ShopListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16218" max-vertical-offset="23664">
+          <caret line="954" column="41" selection-start-line="954" selection-start-column="41" selection-end-line="954" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/dao/ShopListDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2635" max-vertical-offset="4182">
+          <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/service/ShopListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="5083">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommandListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/server/responses/SynchronizedGoodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3825" max-vertical-offset="8262">
+          <caret line="270" column="83" selection-start-line="270" selection-start-column="83" selection-end-line="270" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="2431">
+          <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/http/HttpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="5117">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Android/sdk/sources/android-21/android/provider/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="58477" max-vertical-offset="120734">
+          <caret line="3509" column="35" selection-start-line="3509" selection-start-column="35" selection-end-line="3509" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard_logs/usage.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="21798" max-vertical-offset="32963">
+          <caret line="1286" column="50" selection-start-line="1286" selection-start-column="50" selection-end-line="1286" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/GCMIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2108" max-vertical-offset="2975">
+          <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/activity/SeeapennyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2677" max-vertical-offset="3247">
+          <caret line="217" column="28" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/seeapenny/client/SeeapennyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.591228" vertical-offset="4989" max-vertical-offset="5559">
+          <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+          <folding>
+            <element signature="method#onCreate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#onTerminate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getGoodListNotificationBroadcastReceiver#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAppState#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getPopupNotificationManager#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setSound#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setVibrate#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrencyPosition#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrency#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setRotation#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setIgnoreBoughtGood#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setSortAsc#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setScreen#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setVoiceRecognitionScreen#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#putInListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#13662#13749#0" expanded="false" />
+            <element signature="method#removeInListName#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#14007#14094#0" expanded="false" />
+            <element signature="method#setProductNote#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setProductImage#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#14802#14837#0" expanded="false" />
+            <element signature="method#saveGoodSort#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveDuplicateGood#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setShownGuideDialog#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setRemoveShoplist#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#16226#16228#0" expanded="false" />
+            <element signature="method#saveUid#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveMarketReferrer#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveInstall#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#savePurchase#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveNumGallerySwipeTips#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#uid#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#androidId#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#phoneNumber#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#generateUID#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#imei#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatElapsed#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatFromCache#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getLoginRequest#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setLastSynchTime#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#setCurrentActivity#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#showSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#removeSyncIcon#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getGoogleAcountEmail#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveObject#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveList#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#save#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="e#24433#24480#0" expanded="false" />
+            <element signature="method#loadList#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#load#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#clearSessionStateDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getPermanentDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAudioFile#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getAppLocale#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#formatDatetime#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#saveLocalePosition#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#changeLang#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getStorageDir#0;class#SeeapennyApp#0" expanded="false" />
+            <element signature="method#getDbHelper#0;class#SeeapennyApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Sherlock</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

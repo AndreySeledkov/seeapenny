@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:padding="20dp"
+              android:id="@+id/firstScreen"
+              android:layout_height="fill_parent">
+
+    <Button android:layout_width="fill_parent"
+            android:id="@+id/registration"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            style="@style/reg_button"
+            android:text="@string/registration"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_gravity="center_horizontal"
+              style="@style/auth_with"
+              android:text="@string/authWith"
+              android:layout_height="wrap_content"/>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:gravity="center_horizontal"
+                  android:orientation="horizontal"
+                  android:weightSum="4"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:padding="5dp"
+                   android:id="@+id/authFacebook"
+                   android:src="@drawable/fb_selector"
+                   android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:id="@+id/authVk"
+                   android:padding="5dp"
+                   android:src="@drawable/vk_selector"
+                   android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:id="@+id/authGmail"
+                   android:padding="5dp"
+                   android:src="@drawable/gmail_selector"
+                   android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:id="@+id/authTwit"
+                   android:padding="5dp"
+                   android:src="@drawable/twitter_selector"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <Button android:layout_width="fill_parent"
+            android:id="@+id/enter"
+            style="@style/login_button"
+            android:text="@string/authEnter"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_gravity="right"
+              style="@style/auth_without_session"
+              android:id="@+id/authWithoutSession"
+              android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

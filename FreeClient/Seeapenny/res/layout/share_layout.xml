@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:orientation="vertical"
+             android:background="#999999"
+             android:gravity="center_horizontal"
+             android:layout_height="fill_parent">
+
+    <TextView
+            android:layout_height="wrap_content"
+            style="@style/share_user_header"
+            android:id="@+id/share_user_header"
+            android:text="@string/sharesUser"
+            android:layout_width="wrap_content"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/back"
+            android:layout_height="fill_parent">
+
+        <ListView
+                android:layout_width="fill_parent"
+                style="@style/list"
+                android:id="@+id/list"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:clickable="true"
+            android:visibility="gone"
+            android:id="@+id/cover"
+            android:layout_height="fill_parent"
+            android:background="@drawable/cover"/>
+
+
+</FrameLayout>

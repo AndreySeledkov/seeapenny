@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/controlListLayout"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_centerHorizontal="true"
+
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+
+
+    <FrameLayout android:layout_height="wrap_content"
+                 android:id="@+id/actions"
+
+                 android:layout_alignParentRight="true"
+                 android:layout_width="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/btnDone"
+                   android:layout_alignParentRight="true"
+                   android:src="@drawable/save"
+                   android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/btnSpeak"
+                   android:layout_alignParentRight="true"
+                   android:src="@drawable/mic"
+                   android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <ImageView android:layout_width="wrap_content"
+               android:id="@+id/fullGood"
+               android:layout_toLeftOf="@id/actions"
+               android:src="@drawable/edit"
+               android:layout_height="wrap_content"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/addNewGood"
+            android:layout_toLeftOf="@id/fullGood"
+            android:completionThreshold="1"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:maxLength="100"
+            style="@style/edit_text"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:drawableRight="@drawable/clear"
+            android:hint="@string/add_new_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

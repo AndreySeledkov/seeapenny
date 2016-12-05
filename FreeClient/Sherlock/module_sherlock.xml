@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_sherlock" default="compile.module.sherlock">
+  <dirname property="module.sherlock.basedir" file="${ant.file.module_sherlock}"/>
+  
+  <property name="module.jdk.home.sherlock" value="${jdk.home.android_4.2.2}"/>
+  <property name="module.jdk.bin.sherlock" value="${jdk.bin.android_4.2.2}"/>
+  <property name="module.jdk.classpath.sherlock" value="jdk.classpath.android_4.2.2"/>
+  
+  <property name="compiler.args.sherlock" value="${compiler.args}"/>
+  
+  <property name="sherlock.output.dir" value="${module.sherlock.basedir}/../Seeapenny/out/production/Sherlock"/>
+  <property name="sherlock.testoutput.dir" value="${module.sherlock.basedir}/../Seeapenny/out/test/Sherlock"/>
+  
+  <path id="sherlock.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="sherlock.module.production.classpath">
+    <path refid="${module.jdk.classpath.sherlock}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="sherlock.runtime.production.module.classpath">
+    <pathelement location="${sherlock.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="sherlock.module.classpath">
+    <path refid="${module.jdk.classpath.sherlock}"/>
+    <pathelement location="${sherlock.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="sherlock.runtime.module.classpath">
+    <pathelement location="${sherlock.testoutput.dir}"/>
+    <pathelement location="${sherlock.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.sherlock">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.sherlock">
+    <patternset refid="excluded.from.module.sherlock"/>
+  </patternset>
+  
+  <path id="sherlock.module.sourcepath">
+    <dirset dir="${module.sherlock.basedir}">
+      <include name="gen"/>
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.sherlock" depends="compile.module.sherlock.production,compile.module.sherlock.tests" description="Compile module Sherlock"/>
+  
+  <target name="compile.module.sherlock.production" depends="register.custom.compilers" description="Compile module Sherlock; production classes">
+    <mkdir dir="${sherlock.output.dir}"/>
+    <javac2 destdir="${sherlock.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.sherlock}/javac">
+      <compilerarg line="${compiler.args.sherlock}"/>
+      <bootclasspath refid="sherlock.module.bootclasspath"/>
+      <classpath refid="sherlock.module.production.classpath"/>
+      <src refid="sherlock.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.sherlock"/>
+    </javac2>
+    
+    <copy todir="${sherlock.output.dir}">
+      <fileset dir="${module.sherlock.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.sherlock.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.sherlock.tests" depends="register.custom.compilers,compile.module.sherlock.production" description="compile module Sherlock; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.sherlock" description="cleanup module">
+    <delete dir="${sherlock.output.dir}"/>
+    <delete dir="${sherlock.testoutput.dir}"/>
+  </target>
+</project>

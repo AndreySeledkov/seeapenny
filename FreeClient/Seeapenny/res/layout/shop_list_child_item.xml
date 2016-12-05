@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:paddingRight="10dp"
+              android:paddingTop="1dp"
+              android:paddingBottom="1dp"
+              android:background="#fafaf0"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mark"
+                    android:adjustViewBounds="true"/>
+
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mark"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/view_good"
+                    android:paddingRight="5dp"
+                    android:layout_toLeftOf="@+id/view_mark_price"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent">
+
+                <RelativeLayout
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_width="match_parent">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/good_name"
+                            android:singleLine="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:layout_alignParentLeft="true"
+                            android:layout_toLeftOf="@+id/good_quantity"
+                            style="@style/good_item_title"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/good_quantity"
+                            android:layout_marginTop="2dp"
+                            android:layout_alignParentRight="true"
+                            android:maxLines="1"
+                            style="@style/good_item_quantity"
+                            android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:id="@+id/category"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="5dp"
+                        android:layout_width="wrap_content">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/category_icon"
+                            android:paddingRight="2dp"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/good_category"
+                            style="@style/good_item_category"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:paddingTop="2dp"
+                    android:id="@+id/view_mark_price"
+                    android:layout_height="match_parent">
+
+
+                <TextView
+                        android:id="@+id/good_price"
+                        style="@style/text_shop_list_item_price"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/totalView"
+            android:visibility="gone"
+            android:gravity="right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/totalPrice"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_layout">
+    
+    <ImageView android:src="@drawable/new_item" style="@style/title_image"/>
+    
+    <TextView android:id="@+id/message"
+        style="@style/info"
+        android:text="@string/under_maintenance"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    
+    <Button android:id="@+id/reconnect"
+        android:text="@string/reconnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"/>
+    
+
+</LinearLayout>

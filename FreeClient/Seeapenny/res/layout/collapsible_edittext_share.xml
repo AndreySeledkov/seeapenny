@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/controlListLayout"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="fill_parent"
+        >
+
+    <FrameLayout android:layout_width="wrap_content"
+                 android:id="@+id/actions"
+                 android:layout_alignParentRight="true"
+                 android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/btnDone"
+                   android:src="@drawable/save"
+                   android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="wrap_content"
+                   android:id="@+id/btnSpeak"
+                   android:src="@drawable/mic"
+                   android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <EditText android:layout_width="match_parent"
+              android:id="@+id/addNewShare"
+              android:layout_toLeftOf="@id/actions"
+              android:imeOptions="actionDone"
+              android:inputType="textEmailAddress"
+              android:maxLength="50"
+              style="@style/edit_text"
+              android:drawableRight="@drawable/clear"
+              android:singleLine="true"
+              android:hint="@string/add_share"
+              android:layout_height="wrap_content"/>
+
+</RelativeLayout>

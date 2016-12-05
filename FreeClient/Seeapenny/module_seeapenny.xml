@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_seeapenny" default="compile.module.seeapenny">
+  <dirname property="module.seeapenny.basedir" file="${ant.file.module_seeapenny}"/>
+  
+  <property name="module.jdk.home.seeapenny" value="${jdk.home.android_4.2.2}"/>
+  <property name="module.jdk.bin.seeapenny" value="${jdk.bin.android_4.2.2}"/>
+  <property name="module.jdk.classpath.seeapenny" value="jdk.classpath.android_4.2.2"/>
+  
+  <property name="compiler.args.seeapenny" value="${compiler.args}"/>
+  
+  <property name="seeapenny.output.dir" value="${module.seeapenny.basedir}/out/production/Seeapenny"/>
+  <property name="seeapenny.testoutput.dir" value="${module.seeapenny.basedir}/out/test/Seeapenny"/>
+  
+  <path id="seeapenny.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="seeapenny.module.production.classpath">
+    <path refid="${module.jdk.classpath.seeapenny}"/>
+    <path refid="library.lib.classpath"/>
+    <pathelement location="${sherlock.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="seeapenny.runtime.production.module.classpath">
+    <pathelement location="${seeapenny.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="sherlock.runtime.production.module.classpath"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="seeapenny.module.classpath">
+    <path refid="${module.jdk.classpath.seeapenny}"/>
+    <pathelement location="${seeapenny.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+    <pathelement location="${sherlock.testoutput.dir}"/>
+    <pathelement location="${sherlock.output.dir}"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  <path id="seeapenny.runtime.module.classpath">
+    <pathelement location="${seeapenny.testoutput.dir}"/>
+    <pathelement location="${seeapenny.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="sherlock.runtime.module.classpath"/>
+    <path refid="library.android-support-v4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.seeapenny">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.seeapenny">
+    <patternset refid="excluded.from.module.seeapenny"/>
+  </patternset>
+  
+  <path id="seeapenny.module.sourcepath">
+    <dirset dir="${module.seeapenny.basedir}">
+      <include name="gen"/>
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.seeapenny" depends="compile.module.seeapenny.production,compile.module.seeapenny.tests" description="Compile module Seeapenny"/>
+  
+  <target name="compile.module.seeapenny.production" depends="register.custom.compilers,compile.module.sherlock" description="Compile module Seeapenny; production classes">
+    <mkdir dir="${seeapenny.output.dir}"/>
+    <javac2 destdir="${seeapenny.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.seeapenny}/javac">
+      <compilerarg line="${compiler.args.seeapenny}"/>
+      <bootclasspath refid="seeapenny.module.bootclasspath"/>
+      <classpath refid="seeapenny.module.production.classpath"/>
+      <src refid="seeapenny.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.seeapenny"/>
+    </javac2>
+    
+    <copy todir="${seeapenny.output.dir}">
+      <fileset dir="${module.seeapenny.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.seeapenny.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.seeapenny.tests" depends="register.custom.compilers,compile.module.seeapenny.production" description="compile module Seeapenny; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.seeapenny" description="cleanup module">
+    <delete dir="${seeapenny.output.dir}"/>
+    <delete dir="${seeapenny.testoutput.dir}"/>
+  </target>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:minWidth="300dp"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:background="@drawable/dialog_back"
+              android:layout_height="wrap_content">
+
+    <TextView android:layout_width="wrap_content"
+              android:text="@string/change_name"
+              style="@style/header_change_name_text"
+              android:paddingBottom="5dp"
+              android:layout_height="match_parent"/>
+
+    <View android:layout_width="match_parent"
+          android:background="@drawable/menu_back_selected"
+          android:layout_height="1px"/>
+
+    <EditText android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:layout_marginBottom="20dp"
+              style="@style/header_change_name_edit_text"
+              android:hint="@string/name"
+              android:layout_width="match_parent"/>
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="match_parent">
+
+        <Button android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ok"
+                style="@style/button"
+                android:id="@+id/ok"
+                android:layout_marginRight="5dp"
+                android:layout_width="0dp"/>
+
+        <Button android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:id="@+id/cancel"
+                style="@style/button"
+                android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

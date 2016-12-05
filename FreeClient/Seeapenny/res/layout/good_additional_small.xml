@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent">
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_width="wrap_content">
+
+        <EditText android:layout_width="wrap_content"
+                  android:hint="@string/price"
+                  android:maxLength="5"
+                  style="@style/edit_text_good_additional_selector1"
+                  android:id="@+id/good_additional_price"
+                  android:singleLine="true"
+                  android:numeric="decimal"
+                  android:layout_marginRight="10dp"
+                  android:layout_height="wrap_content"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+                      android:layout_width="wrap_content">
+            <ImageView android:layout_height="wrap_content"
+                       android:adjustViewBounds="true"
+                       android:id="@+id/minus"
+                       android:background="@drawable/minus_selector"
+                       android:layout_width="wrap_content"/>
+
+            <EditText android:layout_width="wrap_content"
+                      android:hint="@string/quantity"
+                      style="@style/edit_text_good_additional_selector"
+                      android:singleLine="true"
+                      android:maxLength="5"
+                      android:paddingLeft="5dp"
+                      android:paddingRight="5dp"
+                      android:numeric="decimal"
+                      android:id="@+id/good_additional_quantity"
+                      android:layout_height="fill_parent"/>
+
+            <ImageView android:layout_height="wrap_content"
+                       android:adjustViewBounds="true"
+                       android:id="@+id/plus"
+                       android:background="@drawable/plus_selector"
+                       android:layout_width="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingTop="5dp"
+                  android:gravity="center_vertical"
+                  android:layout_width="wrap_content">
+
+        <Spinner android:layout_width="wrap_content"
+                 android:id="@+id/goods_measure"
+                 android:background="@drawable/spinner_background"
+                 android:layout_marginRight="10dp"
+                 android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="wrap_content"
+                   android:adjustViewBounds="true"
+                   android:id="@+id/good_important"
+                   android:src="@drawable/good_important_selector"
+                   android:paddingRight="5dp"
+                   android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  style="@style/header_important_text"
+                  android:id="@+id/good_important_text"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

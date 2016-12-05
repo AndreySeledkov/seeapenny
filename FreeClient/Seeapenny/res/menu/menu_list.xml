@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/add_item"
+            android:showAsAction="always|collapseActionView"
+            android:icon="@drawable/add_list"
+            android:actionLayout="@layout/collapsible_edittext_list"
+            android:title="@string/add"
+            >
+    </item>
+
+    <item
+            android:id="@+id/menu"
+            android:showAsAction="always"
+            android:icon="@drawable/menu"
+            android:title="@string/menu">
+
+        <menu>
+
+            <item android:id="@+id/history_lists"
+                  android:icon="@drawable/menu_history"
+                  android:title="@string/history"/>
+            <item android:id="@+id/delete_all_list"
+                  android:icon="@drawable/delete_all"
+                  android:title="@string/remove_all"/>
+            <item android:id="@+id/settings"
+                  android:icon="@drawable/left_menu_preferences"
+                  android:title="@string/settings"/>
+        </menu>
+    </item>
+</menu>
